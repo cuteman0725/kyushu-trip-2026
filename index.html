@@ -18,7 +18,7 @@
   --accent:#25428C; --warn:#A6490F; --warn-bg:#FAEADC; --on-warn:#FFFFFF; --flash:#FFF0C2; --trello:#1E6CAE;
   --casing:#FFFFFF; --halo:rgba(255,255,255,.95); --shadow:rgba(20,30,50,.16);
   --d1:#DE4C2C; --d2:#CC8100; --d3:#0B9286; --d4:#2B7A3E; --d5:#7A4DAF; --d6:#2C58A8; --d7:#C6416D; --d8:#5C6470;
-  --on-d1:#FFFFFF; --on-d2:#1B2232; --on-d3:#FFFFFF; --on-d4:#FFFFFF; --on-d5:#FFFFFF; --on-d6:#FFFFFF; --on-d7:#FFFFFF; --on-d8:#FFFFFF;
+  --on-d1:#FFFFFF; --on-d2:#1B2232; --on-d3:#FFFFFF; --on-d4:#FFFFFF; --on-d5:#FFFFFF; --on-d6:#FFFFFF; --on-d7:#FFFFFF; --on-d8:#FFFFFF; --kid:#B5368C; --on-kid:#FFFFFF;
   --f-display:"LXGW WenKai TC","Noto Sans TC","PingFang TC","Microsoft JhengHei",sans-serif;
   --f-body:"Noto Sans TC","PingFang TC","Microsoft JhengHei",system-ui,sans-serif;
   --f-jp:"Noto Sans JP","Hiragino Sans","Yu Gothic","Noto Sans TC",sans-serif;
@@ -31,7 +31,7 @@
   --accent:#9DB4F2; --warn:#F2A46D; --warn-bg:#35230F; --on-warn:#1B1208; --flash:#3A3216; --trello:#6DB3EE;
   --casing:#10151B; --halo:rgba(16,21,27,.92); --shadow:rgba(0,0,0,.45);
   --d1:#FF7A5C; --d2:#F0B23E; --d3:#3CC5B7; --d4:#5DB874; --d5:#AE88E4; --d6:#7499E8; --d7:#F07FA4; --d8:#A6AEB9;
-  --on-d1:#0E141C; --on-d2:#0E141C; --on-d3:#0E141C; --on-d4:#0E141C; --on-d5:#0E141C; --on-d6:#0E141C; --on-d7:#0E141C; --on-d8:#0E141C;
+  --on-d1:#0E141C; --on-d2:#0E141C; --on-d3:#0E141C; --on-d4:#0E141C; --on-d5:#0E141C; --on-d6:#0E141C; --on-d7:#0E141C; --on-d8:#0E141C; --kid:#F07ACB; --on-kid:#0E141C;
   color-scheme:dark }}
 :root[data-theme="dark"]{
   --paper:#10151B; --ink:#E6E9E3; --muted:#9AA3AE; --line:#2A323C; --card:#18202A; --glass:rgba(22,29,38,.88);
@@ -40,7 +40,7 @@
   --accent:#9DB4F2; --warn:#F2A46D; --warn-bg:#35230F; --on-warn:#1B1208; --flash:#3A3216; --trello:#6DB3EE;
   --casing:#10151B; --halo:rgba(16,21,27,.92); --shadow:rgba(0,0,0,.45);
   --d1:#FF7A5C; --d2:#F0B23E; --d3:#3CC5B7; --d4:#5DB874; --d5:#AE88E4; --d6:#7499E8; --d7:#F07FA4; --d8:#A6AEB9;
-  --on-d1:#0E141C; --on-d2:#0E141C; --on-d3:#0E141C; --on-d4:#0E141C; --on-d5:#0E141C; --on-d6:#0E141C; --on-d7:#0E141C; --on-d8:#0E141C;
+  --on-d1:#0E141C; --on-d2:#0E141C; --on-d3:#0E141C; --on-d4:#0E141C; --on-d5:#0E141C; --on-d6:#0E141C; --on-d7:#0E141C; --on-d8:#0E141C; --kid:#F07ACB; --on-kid:#0E141C;
   color-scheme:dark }
 
 .dc0{--c:var(--ink);--on:var(--paper)} .dc1{--c:var(--d1);--on:var(--on-d1)} .dc2{--c:var(--d2);--on:var(--on-d2)}
@@ -256,7 +256,7 @@ h1{margin:0; font-family:var(--f-display); font-weight:700; font-size:clamp(36px
   --leaf:#4F8A57; --leaf2:#366B40; --pine:#2F5E3A; --cedar:#2C5534; --copper:#6FA48E; --terra:#C9774A; --moai:#8D8C86;
   --smoke:#8E949C; --steam:rgba(255,255,255,.92); --lit:#D7EAF1; --glass:#BFDCE8; --metal:#C8CED6; --road:#5B606B; --shade:#2B2A30;
   --skin:#F1C9A2; --hair:#2D2622; --towel:#FFFFFF; --c1:#E35D45; --c2:#3D72C4; --c3:#F0B53A; --c4:#2E9C8A; --c5:#9B5CC4;
-  --ink-s:#2A3140; --pillbg:#1B2232; --pillfg:#FFFFFF; --lava:#FF7A2F; --st-track:rgba(255,255,255,.45);
+  --ink-s:#2A3140; --pillbg:#1B2232; --pillfg:#FFFFFF; --lava:#FF7A2F; --st-track:rgba(255,255,255,.45); --bronze:#5D5B45; --bronze2:#7E7B5E; --shark:#4B6880; --dolph:#8794A1;
 }
 @media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
   --sk1:#0B1631; --sk2:#2A3B60; --sun:#F1E6C4; --cloud:#33405E; --night:1;
@@ -267,7 +267,7 @@ h1{margin:0; font-family:var(--f-display); font-weight:700; font-size:clamp(36px
   --leaf:#2F583A; --leaf2:#23452C; --pine:#1F3F28; --cedar:#1C3A24; --copper:#4F8371; --terra:#B8693F; --moai:#6B6A66;
   --smoke:#8F969F; --steam:rgba(214,226,240,.6); --lit:#FFD27A; --glass:#3D566C; --metal:#7E8793; --road:#3A3F48; --shade:#0F0F13;
   --skin:#D4A984; --hair:#1A1512; --towel:#E3E0D8; --c1:#E57460; --c2:#6390D6; --c3:#E6AF45; --c4:#46B5A2; --c5:#B07DD8;
-  --ink-s:#0E141C; --pillbg:#F1F3EF; --pillfg:#10151B }}
+  --ink-s:#0E141C; --pillbg:#F1F3EF; --pillfg:#10151B; --bronze:#77745C; --bronze2:#94916F; --shark:#6E8DA6; --dolph:#A3B0BC }}
 :root[data-theme="dark"]{
   --sk1:#0B1631; --sk2:#2A3B60; --sun:#F1E6C4; --cloud:#33405E; --night:1;
   --far:#2D3D59; --far2:#24334D; --mid:#2C4A44; --near:#223A31; --grass:#2F4C35; --grass2:#284330;
@@ -277,7 +277,7 @@ h1{margin:0; font-family:var(--f-display); font-weight:700; font-size:clamp(36px
   --leaf:#2F583A; --leaf2:#23452C; --pine:#1F3F28; --cedar:#1C3A24; --copper:#4F8371; --terra:#B8693F; --moai:#6B6A66;
   --smoke:#8F969F; --steam:rgba(214,226,240,.6); --lit:#FFD27A; --glass:#3D566C; --metal:#7E8793; --road:#3A3F48; --shade:#0F0F13;
   --skin:#D4A984; --hair:#1A1512; --towel:#E3E0D8; --c1:#E57460; --c2:#6390D6; --c3:#E6AF45; --c4:#46B5A2; --c5:#B07DD8;
-  --ink-s:#0E141C; --pillbg:#F1F3EF; --pillfg:#10151B }
+  --ink-s:#0E141C; --pillbg:#F1F3EF; --pillfg:#10151B; --bronze:#77745C; --bronze2:#94916F; --shark:#6E8DA6; --dolph:#A3B0BC }
 
 .scene{display:block; width:100%; height:100%}
 .f-sun{fill:var(--sun)} .f-cloud{fill:var(--cloud)} .f-star{fill:var(--star)} .f-far{fill:var(--far)} .f-far2{fill:var(--far2)}
@@ -371,6 +371,19 @@ h1{margin:0; font-family:var(--f-display); font-weight:700; font-size:clamp(36px
 .popin{transform-box:fill-box; transform-origin:50% 50%; animation:s-pop .45s cubic-bezier(.34,1.56,.64,1) var(--d,0s) both}
 
 /* line work used by individual scenes */
+.f-bronze{fill:var(--bronze)} .f-bronze2{fill:var(--bronze2)} .f-shark{fill:var(--shark)} .f-dolph{fill:var(--dolph)}
+.bookl{fill:none; stroke:var(--rock); stroke-width:1.2; stroke-linecap:round}
+.hand{fill:none; stroke:var(--ink-s); stroke-width:1.6; stroke-linecap:round}
+.rot{animation:s-spin var(--t,8s) linear infinite}
+.netf{fill:none; stroke:var(--wood2); stroke-width:2.6; stroke-linecap:round}
+.net{fill:none; stroke:var(--sand); stroke-width:1}
+.sword{fill:none; stroke:var(--bronze2); stroke-width:2; stroke-linecap:round}
+.tail{fill:none; stroke:var(--black); stroke-width:1.4; stroke-linecap:round}
+.tailr{fill:none; stroke:var(--rock2); stroke-width:1.4; stroke-linecap:round}
+.mouth{fill:none; stroke:var(--ink-s); stroke-width:1; stroke-linecap:round}
+.stampc{fill:none; stroke:var(--verm); stroke-width:1.6}
+.brush{fill:none; stroke:var(--ink-s); stroke-width:1.6; stroke-linecap:round}
+.tankf{fill:none; stroke:var(--rock2); stroke-width:4}
 .pst{fill:none; stroke:var(--rock2); stroke-width:1}
 .pwin{fill:none; stroke:var(--road); stroke-width:1.6; stroke-dasharray:1.6 2.4}
 .stamp circle{fill:none; stroke:var(--verm); stroke-width:1.8}
@@ -520,6 +533,26 @@ h1{margin:0; font-family:var(--f-display); font-weight:700; font-size:clamp(36px
   .st-dots button::before{transition:none}
 }
 
+/* split groups (D1–D2): group A (親子組) gets its own colour */
+.rt.br-kid,.mk.kid,.veh.kid,.dotmk.kid,.line > li.br-kid,.tip.br-kid,.grp.br-kid,.bn-fork .br-kid{--c:var(--kid); --on:var(--on-kid)}
+.line > li{position:relative}
+.line > li.br-kid::after{content:""; position:absolute; left:16px; top:-3px; bottom:-3px; width:4px; margin-left:-2px; background:var(--kid)}
+.line > li.br-kid > *{position:relative; z-index:1}
+.fork-h{display:grid; grid-template-columns:32px minmax(0,1fr); gap:12px; align-items:center; margin:8px 0 2px; padding:6px 10px 6px 0; border-radius:14px}
+.fork-h .fk{width:32px; height:32px; border-radius:10px; border:3px solid var(--paper); background:var(--c); color:var(--on); display:grid; place-items:center; font:700 15px/1 var(--f-mono); position:relative; z-index:1}
+.fk-t{display:flex; flex-wrap:wrap; align-items:baseline; gap:2px 8px; margin:0}
+.fk-t b{font-size:16px; color:var(--c)}
+.fk-t .who{font-size:13px; color:var(--muted)}
+.fk-n{margin:1px 0 0; font-size:13px; line-height:1.5; color:var(--muted)}
+.fork-h.arrive{animation:flash 1.6s ease-out}
+.leg.merge{color:var(--ink); font-weight:500}
+.tm{display:inline-block; padding:0 6px; border-radius:6px; border:1px solid var(--c); color:var(--c); font:600 12px/1.6 var(--f-mono)}
+.grp{display:inline-flex; align-items:center; padding:0 8px; border-radius:999px; background:var(--c); color:var(--on); font:600 11.5px/1.75 var(--f-body)}
+.st-dots button.kid{--c:var(--kid)}
+.bn-fork{flex-basis:100%; display:flex; flex-wrap:wrap; gap:2px 12px; font-size:12.5px; font-weight:500; color:var(--ink)}
+.bn-fork i{display:inline-block; width:14px; height:4px; margin-right:6px; border-radius:2px; background:var(--c); vertical-align:middle}
+@media (prefers-reduced-motion: reduce){ .fork-h.arrive{animation:none} }
+
 
 @media (prefers-reduced-motion: reduce){
   .smoke circle{animation:none; opacity:.45}
@@ -566,6 +599,9 @@ h1{margin:0; font-family:var(--f-display); font-weight:700; font-size:clamp(36px
   <symbol id="i-play" viewBox="0 0 24 24"><path fill="currentColor" d="M8 5.5v13l10.5-6.5z"/></symbol>
   <symbol id="i-pause" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" d="M9 6v12M15 6v12"/></symbol>
   <symbol id="i-replay" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4.5 12a7.5 7.5 0 1 0 2.2-5.3"/><path d="M4.5 4.5V9H9"/></g></symbol>
+  <symbol id="i-book" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M12 6.5C10 5 7 4.5 3.5 5v13c3.5-.5 6.5 0 8.5 1.5 2-1.5 5-2 8.5-1.5V5c-3.5-.5-6.5 0-8.5 1.5zM12 6.5v13"/></g></symbol>
+  <symbol id="i-statue" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="4.8" r="1.9"/><path d="M9.5 15.5 10 8.5h4l.5 7M7 21h10M8.5 21v-3.5h7V21"/></g></symbol>
+  <symbol id="i-fish" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12c3-4.2 8-5 12-2.4L20 6v12l-5-3.6C11 17 6 16.2 3 12z"/><circle cx="8" cy="11.2" r=".7"/></g></symbol>
   <symbol id="i-map" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M3.5 6.5 9 4.5l6 2 5.5-2v13l-5.5 2-6-2-5.5 2z"/><path d="M9 4.5v13M15 6.5v13"/></g></symbol>
   <symbol id="i-spark" viewBox="0 0 24 24"><path fill="currentColor" d="M11 2.5l2.1 6.4 6.4 2.1-6.4 2.1L11 19.5l-2.1-6.4L2.5 11l6.4-2.1zM18.5 15l.9 2.6 2.6.9-2.6.9-.9 2.6-.9-2.6-2.6-.9 2.6-.9z"/></symbol>
   <symbol id="i-photo" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2.5"/><circle cx="9" cy="10" r="1.8"/><path d="M4 17l5-4.5 3.5 3 3-2.5L20 17"/></g></symbol>
@@ -593,7 +629,7 @@ h1{margin:0; font-family:var(--f-display); font-weight:700; font-size:clamp(36px
   <header class="hero">
     <p class="eyebrow">2026.12.26 → 2027.01.02 · 8 天 7 夜 · 5 大 2 小</p>
     <h1>南九州 8 日遊</h1>
-    <p class="sub">鹿兒島、霧島、宮崎跨年家族旅行。點上面的日期看每天去哪裡；「路線地圖」可以播放 8 天的路線，「景點動畫」用會動的示意圖介紹每一站最大的特色。</p>
+    <p class="sub">鹿兒島、霧島、宮崎跨年家族旅行。前兩天下午分兩組行動，12/28 起全家一起。點上面的日期看每天去哪裡；「路線地圖」播放 8 天的路線，「景點動畫」用會動的示意圖介紹每一站最大的特色。</p>
   </header>
 
   <nav class="rail" aria-label="選擇日期"><div class="rail-track" id="rail" role="tablist"></div></nav>
@@ -644,7 +680,7 @@ h1{margin:0; font-family:var(--f-display); font-weight:700; font-size:clamp(36px
   </main>
 
   <footer class="foot">
-    <p>行程依 Notion「日本鹿兒島旅遊（2026/12/26–2027/01/02）」頁面（2026/10/4 版本）；標「Trello」的是弟媳 Trello 看板匯入 Notion 的卡片（2026/6），主頁沒有寫。景點介紹、路況和票價參考下列官方與旅遊網站（2026/10/17 查詢），出發前請再確認。地圖為示意，位置與路線是概略畫法，不代表實際道路；車程標「粗估」的是依地圖距離估的。景點動畫是依介紹畫的示意插畫，不是實景；這個頁面放不進外部的照片和影片，所以每一站附上「照片」「影片」按鈕，會在新分頁打開 Google 圖片和 YouTube 的搜尋結果。</p>
+    <p>行程依 Notion「日本鹿兒島旅遊（2026/12/26–2027/01/02）」頁面（2026/10/17 版本，含 10/17 家族會議整理）；標「Trello」的是弟媳 Trello 看板匯入 Notion 的卡片（2026/6），主頁沒有寫。景點介紹、路況和票價參考下列官方與旅遊網站（2026/10/17 查詢），出發前請再確認。地圖為示意，位置與路線是概略畫法，不代表實際道路；車程標「粗估」的是依地圖距離估的。景點動畫是依介紹畫的示意插畫，不是實景；這個頁面放不進外部的照片和影片，所以每一站附上「照片」「影片」按鈕，會在新分頁打開 Google 圖片和 YouTube 的搜尋結果。</p>
     <ul class="src">
       <li><a href="https://kirishimakankou.com/2026/07/02/news-29177/" target="_blank" rel="noopener">霧島市觀光協會：縣道 1 號通行</a></li>
       <li><a href="https://www.kanko-miyazaki.jp/spot/1015" target="_blank" rel="noopener">宮崎縣觀光協會：えびの高原</a></li>
@@ -658,6 +694,11 @@ h1{margin:0; font-family:var(--f-display); font-weight:700; font-size:clamp(36px
       <li><a href="https://www.jeepe.jp/zh_TW/articles/heiwadai-park-miyazaki-1466" target="_blank" rel="noopener">平和台公園（埴輪園）</a></li>
       <li><a href="https://tabi-mag.jp/mz0042/" target="_blank" rel="noopener">平和之塔</a></li>
       <li><a href="https://tabi-mag.jp/mz0050/" target="_blank" rel="noopener">青島・鬼の洗濯板</a></li>
+      <li><a href="https://rurubu.jp/andmore/spot/80041758" target="_blank" rel="noopener">かごしまメルヘン館</a></li>
+      <li><a href="https://kids.rurubu.jp/article/1847/" target="_blank" rel="noopener">いおワールドかごしま水族館</a></li>
+      <li><a href="https://tabi-mag.jp/kg0016/" target="_blank" rel="noopener">西郷隆盛銅像</a></li>
+      <li><a href="https://kotobank.jp/word/%E6%9D%BE%E5%8E%9F%E7%A5%9E%E7%A4%BE" target="_blank" rel="noopener">松原神社（コトバンク）</a></li>
+      <li><a href="https://www.hotpepper.jp/strJ000874340/" target="_blank" rel="noopener">黒豚の館</a></li>
       <li><a href="https://github.com/dataofjapan/land" target="_blank" rel="noopener">地圖底圖：國土數值情報（dataofjapan/land）</a></li>
     </ul>
   </footer>
@@ -889,14 +930,16 @@ h1{margin:0; font-family:var(--f-display); font-weight:700; font-size:clamp(36px
   SC.sakura = () => sky() + cloud(118, 28, 0.8, -2, 18) + cloud(334, 64, 0.7, -8, 22)
     + sakura(214, 176, 330, 128, { glow: true, ps: 1.5, dx: 22 })
     + '<path class="f-rock2" d="M-10 176L30 168L58 172L84 164L118 170L150 162L184 170L220 163L256 171L292 164L330 170L366 163L410 170V190H-10Z"/>'
-    + '<rect class="f-wall" x="152" y="108" width="14" height="6"/><path class="f-roof" d="M149 108H169L165 104H153Z"/>'
+    + '<rect class="f-wall" x="262" y="158" width="46" height="18"/><rect class="f-glass" x="266" y="162" width="38" height="7"/><rect class="f-roof" x="258" y="154" width="54" height="5" rx="2"/>'
+    + '<rect class="f-wall" x="22" y="166" width="22" height="12"/><path class="f-verm" d="M18 167L33 158L48 167Z"/>' + torii(56, 184, 18, 16, 'f-verm', 'f-ink')
     + sea(186) + waves(196, 5, { gap: 10 })
     + '<rect class="f-wood" x="66" y="181" width="172" height="5" rx="2"/><rect class="f-wood2" x="66" y="186" width="172" height="3"/>'
     + [92, 128, 162, 198, 224].map((x, i) => person(x, 184, 0.55, ['f-c1', 'f-c2', 'f-c3', 'f-c4', 'f-c5'][i])).join('')
     + [78, 110, 144, 180, 212, 236].map((x, i) => steam(x, 180, 0.7, 2, 6, 2.6 + (i % 3) * 0.4)).join('')
-    + guide(58, 48, 207, 48, 0.9) + dimV(58, 48, 176, '1,117 m', 0.9)
-    + pin(159, 110, 176, 84, '湯之平展望所 373 m', 1.8, 'start')
-    + dimH(66, 238, 193, '熔岩海濱足湯約 100 m', 2.6, 'b');
+    + guide(207, 48, 352, 48, 0.9) + dimV(352, 48, 176, '1,117 m', 0.9, 'l')
+    + pin(34, 162, 30, 132, '08:30 月讀神社', 1.6, 'start')
+    + pin(285, 158, 250, 136, '09:00 櫻島遊客中心', 2.2, 'end')
+    + dimH(66, 238, 193, '10:00 熔岩海濱足湯約 100 m', 2.8, 'b');
 
   SC.sengan = () => sky() + sun(60, 38, 11) + cloud(96, 66, 0.7, -4, 20)
     + sakura(268, 140, 250, 86, { ps: 1.1 })
@@ -907,10 +950,11 @@ h1{margin:0; font-family:var(--f-display); font-weight:700; font-size:clamp(36px
     + '<rect class="f-wall" x="14" y="140" width="72" height="26"/><rect class="f-wood2" x="14" y="140" width="72" height="3"/><rect class="f-wood2" x="29" y="143" width="2" height="23"/><rect class="f-wood2" x="49" y="143" width="2" height="23"/><rect class="f-wood2" x="69" y="143" width="2" height="23"/>' + roof(50, 141, 96, 26)
     + bush(150, 172, 1.3) + bush(210, 174, 1.1, 'f-leaf')
     + pine(116, 214, 1.9)
+    + '<rect class="f-rockhi" x="296" y="148" width="86" height="22"/><path class="f-roof" d="M292 149H386L380 142H298Z"/>' + [304, 322, 340, 358].map((x) => `<path class="f-shade" d="M${x} 168V158Q${x + 5} 153 ${x + 10} 158V168Z"/>`).join('')
     + lantern(334, 216, 1.45)
     + pin(263, 58, 226, 36, '假山＝櫻島', 1.0, 'end')
     + pin(196, 152, 152, 124, '池＝錦江灣', 1.8)
-    + pin(50, 124, 64, 92, '島津家別邸・1658 年', 2.6, 'start');
+    + pin(352, 150, 376, 118, '尚古集成館', 2.6, 'end');
 
   SC.saigo = () => sky() + sun(334, 40, 10)
     + ridge([[-10, 98], [60, 78], [140, 66], [220, 72], [300, 62], [410, 82]], 'f-near')
@@ -972,7 +1016,7 @@ h1{margin:0; font-family:var(--f-display); font-weight:700; font-size:clamp(36px
     s += [[300, 168, 0], [370, 176, 0.8], [352, 150, 1.6]].map(([x, y, d]) => `<path class="f-sun twinkle" d="M${x} ${y - 6}L${x + 1.6} ${y - 1.6}L${x + 6} ${y}L${x + 1.6} ${y + 1.6}L${x} ${y + 6}L${x - 1.6} ${y + 1.6}L${x - 6} ${y}L${x - 1.6} ${y - 1.6}Z"${tm(-d, 1.8)}/>`).join('');
     return s + pin(200, 150, 200, 96, '鹿兒島最熱鬧的拱廊商店街', 1.0)
       + pin(336, 186, 304, 150, '名物：白熊刨冰', 1.9)
-      + pin(58, 102, 96, 68, '晚餐：川久黑豬豬排', 2.7, 'start');
+      + pin(58, 102, 96, 68, '傍晚在這裡吃晚餐', 2.7, 'start');
   };
 
   /* D3 */
@@ -1003,9 +1047,9 @@ h1{margin:0; font-family:var(--f-display); font-weight:700; font-size:clamp(36px
     + '<path class="f-wood" d="M124 196H276L270 214H130Z"/><path class="f-water" d="M132 199H268L264 210H136Z"/>'
     + [150, 176, 222, 250].map((x, i) => person(x, 199, 0.62, ['f-c1', 'f-c3', 'f-c2', 'f-c4'][i])).join('')
     + [156, 200, 244].map((x, i) => steam(x, 200, 0.85, 3, 7, 2.8 + i * 0.3)).join('')
-    + '<rect class="f-metal" x="349" y="160" width="3" height="40"/><circle class="f-c2" cx="350.5" cy="156" r="8"/><rect class="f-white" x="345" y="154.5" width="11" height="3" rx="1"/>'
+    + `<g transform="translate(352 216) scale(.55)">${van()}</g>`
     + pin(244, 205, 292, 186, '站前免費足湯', 1.0, 'start')
-    + pin(350, 150, 330, 110, '當地交通：公車或包車（未定）', 1.9, 'end');
+    + pin(352, 198, 330, 120, '在站附近領當地租的小車', 1.9, 'end');
 
   const buried = (x, y, s, c) => `<g transform="translate(${x} ${y}) scale(${s})"><path class="f-soil" d="M-8 2C-6 -11 42 -13 48 2Z"/><path fill="url(#p-sand)" opacity=".7" d="M-8 2C-6 -11 42 -13 48 2Z"/><rect class="${c}" x="-8" y="-6" width="6" height="6" rx="1.5"/><circle class="f-skin" cx="-12" cy="-4" r="5"/><path class="f-towel" d="M-17.6 -4.6A5.6 5.6 0 0 1 -6.4 -4.6Z"/></g>`;
   SC.saraku = () => sky() + sun(332, 40, 11) + cloud(120, 36, 0.8, -3, 18)
@@ -1257,27 +1301,126 @@ h1{margin:0; font-family:var(--f-display); font-weight:700; font-size:clamp(36px
     + pin(250, 104, 216, 70, '12:25 起飛回台', 4.6, 'end')
     + pin(310, 206, 300, 140, '免費溫泉足湯「おやっとさぁ」', 1.0, 'end');
 
+  /* 10/17 update: split groups on D1–D2, lunch on D4 */
+  const star4 = (x, y, d, r = 5) => `<path class="f-sun twinkle" d="M${x} ${y - r}L${x + r * 0.28} ${y - r * 0.28}L${x + r} ${y}L${x + r * 0.28} ${y + r * 0.28}L${x} ${y + r}L${x - r * 0.28} ${y + r * 0.28}L${x - r} ${y}L${x - r * 0.28} ${y - r * 0.28}Z"${tm(-d, 1.9)}/>`;
+  SC.marchen = () => {
+    let s = sky() + sun(334, 40, 10) + cloud(122, 30, 0.75, -3, 18)
+      + ridge([[-10, 120], [60, 100], [140, 90], [220, 96], [300, 86], [410, 104]], 'f-near')
+      + [16, 50, 352, 388].map((x, i) => tree(x, 128 - (i % 2) * 5, 0.9, i * 0.6)).join('')
+      + '<rect class="f-grass" x="-10" y="150" width="420" height="110"/><path class="f-sand" d="M156 260L184 186H216L244 260Z"/>'
+      + '<rect class="f-wall" x="76" y="120" width="248" height="62"/><rect class="f-roof" x="70" y="114" width="260" height="8" rx="2"/>'
+      + [96, 128, 260, 292].map((x) => `<rect class="f-glass" x="${x}" y="134" width="22" height="16"/><rect class="f-lit nite" x="${x}" y="134" width="22" height="16"/>`).join('');
+    s += '<path class="f-verm" d="M200 114C176 100 146 98 120 104V182C146 176 176 178 200 188C224 178 254 176 280 182V104C254 98 224 100 200 114Z"/>'
+      + '<path class="f-white" d="M200 110C178 98 150 96 126 102V176C150 170 178 172 200 182Z"/><path class="f-white" d="M200 110C222 98 250 96 274 102V176C250 170 222 172 200 182Z"/>'
+      + '<path class="bookl" d="M140 116Q166 112 192 120M140 128Q166 124 192 132M140 140Q166 136 192 144M140 152Q160 149 176 152M200 110V182"/>'
+      + '<g transform="translate(237 164)"><rect class="f-c2" x="-14" y="-18" width="28" height="18"/><rect class="f-c2" x="-21" y="-28" width="8" height="28"/><rect class="f-c2" x="13" y="-28" width="8" height="28"/><path class="f-c1" d="M-23 -28L-17 -40L-11 -28ZM11 -28L17 -40L23 -28Z"/><rect class="f-c2" x="-5" y="-33" width="10" height="15"/><path class="f-c1" d="M-7 -33L0 -46L7 -33Z"/><path class="f-shade" d="M-4 0V-8Q0 -12 4 -8V0Z"/></g>'
+      + '<path class="f-shade" d="M189 186V166Q200 157 211 166V186Z"/>'
+      + star4(150, 92, 0) + star4(262, 88, 0.7) + star4(288, 120, 1.4) + star4(114, 122, 2.1, 4);
+    s += '<rect class="f-wood2" x="55" y="120" width="6" height="66"/><path class="f-roof" d="M36 90L58 72L80 90Z"/><rect class="f-verm" x="42" y="88" width="32" height="34" rx="3"/><circle class="f-white" cx="58" cy="102" r="10"/>'
+      + `<g transform="translate(58 102)"><g class="rot"${tm(0, 6)}><path class="hand" d="M0 0V-7.5"/></g><g class="rot"${tm(0, 36)}><path class="hand" d="M0 0H5"/></g><circle class="f-ink" r="1.4"/></g>`
+      + '<rect class="f-shade" x="51" y="113" width="14" height="8"/>' + `<g class="bob"${tm(-0.6, 2.2)}>${person(58, 121, 0.4, 'f-c3')}</g>`;
+    s += '<path class="netf" d="M326 214L348 156L370 214"/><path class="net" d="M344.2 166H351.8M340.4 176H355.6M336.6 186H359.4M332.8 196H363.2M329 206H367M340.4 176L351.8 166M336.6 186L355.6 176M332.8 196L359.4 186M329 206L363.2 196M344.2 166L355.6 176M340.4 176L359.4 186M336.6 186L363.2 196M332.8 196L367 206"/>'
+      + `<g class="bob"${tm(-1, 2.6)}>${person(350, 190, 0.62, 'f-c4')}</g>`
+      + person(194, 220, 0.62, 'f-c5') + person(208, 222, 0.85, 'f-c2') + person(222, 220, 0.62, 'f-c1');
+    return s + pin(58, 102, 24, 66, '中庭的機關時鐘', 1.0, 'start')
+      + pin(200, 132, 200, 50, '走進童話故事的世界', 1.9)
+      + pin(352, 172, 382, 132, '錯視藝術・小型體能遊戲', 2.7, 'end');
+  };
+
+  SC.matsubara = () => {
+    const hs = [26, 40, 30, 48, 34, 22, 44, 30, 38, 26, 46, 32, 28, 42, 30, 36, 24, 40, 34, 28, 44, 30, 26, 38, 32, 40];
+    let city = '';
+    hs.forEach((h, i) => {
+      const x = -10 + i * 16.4, w = 13 + (i % 3) * 2;
+      city += `<rect class="${i % 2 ? 'f-far2' : 'f-far'}" x="${r1(x)}" y="${160 - h}" width="${w}" height="${h}"/>`;
+      for (let wy = 166 - h; wy < 154; wy += 8) city += `<rect class="f-lit nite" x="${r1(x + 3)}" y="${wy}" width="${w - 6}" height="2.4"/>`;
+    });
+    return sky() + sun(332, 40, 10) + cloud(98, 34, 0.8, -3, 18) + city
+      + '<rect class="f-sand" x="-10" y="160" width="420" height="100"/><path class="f-rockhi" d="M168 260L184 182H216L232 260Z"/>'
+      + hall(200, 170, 118, 60, { body: 'f-wood', roof: 'f-roof', cols: 4, door: true })
+      + pine(52, 206, 1.6) + pine(348, 208, 1.7, true)
+      + torii(200, 218, 150, 102, 'f-rockhi', 'f-rock2')
+      + `<g class="popin"${tm(2.6)}><g transform="translate(318 104) rotate(8)"><rect class="f-white" x="-22" y="-28" width="44" height="56" rx="2"/><path class="bookl" d="M0 -28V28"/><circle class="stampc" cx="11" cy="6" r="7"/><path class="brush" d="M-14 -18v22M-8 -20v18M8 -18v6"/></g></g>`
+      + pin(200, 122, 40, 74, '祭神：島津貴久（第 15 代當主）', 1.0, 'start')
+      + pin(126, 206, 20, 196, '1870 年建在南林寺舊址', 1.8, 'start')
+      + pin(318, 104, 300, 52, '詢問御朱印', 2.6, 'end');
+  };
+
+  SC.saigozo = () => sky() + sun(334, 40, 10) + cloud(112, 34, 0.8, -4, 18)
+    + ridge([[-10, 118], [60, 98], [150, 86], [240, 92], [330, 82], [410, 100]], 'f-near')
+    + [12, 46, 80, 320, 354, 388].map((x, i) => tree(x, 124 - (i % 2) * 6, 0.9, i * 0.6)).join('')
+    + '<rect class="f-grass" x="-10" y="150" width="420" height="110"/><rect class="f-road" x="-10" y="206" width="420" height="22"/><path class="lane" d="M-10 217H410"/>'
+    + '<path class="f-grass2" d="M118 192Q200 154 282 192Z"/>' + bush(140, 190, 1.2) + bush(262, 190, 1.2, 'f-leaf')
+    + '<rect class="f-rock2" x="168" y="164" width="64" height="12"/><rect class="f-rock" x="176" y="150" width="48" height="15"/>'
+    + '<path class="f-bronze" d="M190 150L191.5 122H198.5L199 150ZM201 150L201.5 122H208.5L210 150Z"/>'
+    + '<path class="f-bronze" d="M184 126L186 85Q200 77 214 85L216 126Z"/><path class="f-bronze2" d="M200 80Q209 80 214 85L216 126H204Z"/>'
+    + '<path class="f-bronze" d="M185 88L179 120L185 121L190 92Z"/><path class="f-bronze" d="M215 88L222 117L216 119L210 92Z"/><path class="sword" d="M219 115L224 147"/>'
+    + '<circle class="f-bronze" cx="200" cy="71" r="9"/><path class="f-bronze2" d="M200 62A9 9 0 0 1 209 71Q205 66 200 66Z"/>'
+    + person(108, 214, 0.85, 'f-c1') + person(122, 214, 0.6, 'f-c3') + person(292, 214, 0.85, 'f-c2')
+    + dimV(150, 62, 176, '高約 8 m', 1.0, 'l')
+    + pin(214, 96, 254, 64, '穿陸軍軍服，和上野那尊不一樣', 1.9, 'start')
+    + pin(200, 168, 290, 190, '1937 年完成・安藤照做了 8 年', 2.7, 'start');
+
+  const shark = () => '<path class="f-shark" d="M-44 0C-36 -12 14 -14 30 -5L44 -15L42 0L44 15L30 5C14 14 -36 12 -44 0Z"/><path class="f-shark" d="M-4 -11L4 -20L10 -10Z"/><path class="f-shark" d="M-10 8L-2 18L4 9Z"/>'
+    + [[-30, -3], [-22, 2], [-14, -5], [-6, 1], [2, -4], [10, 2], [-26, 6], [-10, 6], [6, 6], [-18, -7], [18, -2]].map(([x, y]) => `<circle class="f-white" cx="${x}" cy="${y}" r="1.3" opacity=".8"/>`).join('') + '<path class="mouth" d="M-44 0Q-40 3 -35 2"/>';
+  const dolphin = () => '<path class="f-dolph" d="M-16 0C-10 -8 6 -9 14 -3L20 -6L18 0L22 4L14 3C6 7 -10 6 -16 0Z"/><path class="f-dolph" d="M-2 -6L2 -12L5 -6Z"/><path class="f-dolph" d="M-16 0L-21 -2L-20 1Z"/>';
+  const fish = (x, y) => `<ellipse class="f-c3" cx="${x}" cy="${y}" rx="3.4" ry="1.8"/><path class="f-c3" d="M${x + 3} ${y}l3 -2v4z"/>`;
+  SC.aquarium = () => sky() + sun(352, 34, 9)
+    + sakura(334, 128, 150, 52, { ps: 0.8 }) + sea(126) + waves(132, 4, { gap: 9, amp: 1.2 })
+    + '<rect class="f-wall" x="-10" y="36" width="262" height="200"/><rect class="f-roof" x="-10" y="30" width="268" height="8"/><rect class="f-c2" x="70" y="40" width="114" height="11" rx="2"/><text class="sign lt" x="127" y="48.4" text-anchor="middle">いおワールド</text>'
+    + '<rect x="20" y="56" width="214" height="134" rx="14" fill="url(#g-sea)"/>'
+    + [[54, 0], [120, 1.4], [184, 2.6]].map(([x, d]) => `<path class="shaft shine" d="M${x} 56h18l22 134h-18z" fill="url(#g-shaft)"${tm(-d, 6)}/>`).join('')
+    + `<g transform="translate(130 122)"><g class="drift"${tm(-2, 10)}>${shark()}</g></g>`
+    + `<g transform="translate(70 84)"><g class="drift"${tm(-5, 7)}>${[[0, 0], [9, -3], [16, 2], [6, 5], [-7, 4], [23, -2], [13, 9]].map(([x, y]) => fish(x, y)).join('')}</g></g>`
+    + `<g transform="translate(190 166)"><g class="drift"${tm(-8, 12)}><path class="f-rock2" d="M-18 0L0 -7L18 0L0 6Z"/><path class="tailr" d="M18 0H30"/></g></g>`
+    + '<rect class="tankf" x="20" y="56" width="214" height="134" rx="14"/><rect class="f-rock" x="-10" y="190" width="262" height="46"/>'
+    + person(62, 214, 1.05, 'f-c2') + person(80, 214, 0.68, 'f-c3') + person(100, 214, 1.05, 'f-c1') + person(118, 214, 0.66, 'f-c5')
+    + '<rect class="f-rock2" x="252" y="178" width="160" height="8"/><rect class="f-rock" x="252" y="186" width="160" height="50"/>'
+    + `<g transform="translate(270 168)"><g class="tox"${tm(0, 3.4, '--x:96px')}><g class="toy"${tm(0, 3.4, '--y:-46px')}><g transform="scale(-1 1)">${dolphin()}</g></g></g></g>`
+    + `<g transform="translate(330 172)"><g class="bob"${tm(-1, 2.6)}><g transform="scale(-.8 .8)">${dolphin()}</g></g></g>`
+    + [[270, 172, 0], [366, 172, 1.7]].map(([x, y, d]) => `<circle class="f-steam mist" cx="${x}" cy="${y}" r="4"${tm(-d, 3.4, '--dx:0px')}/>`).join('')
+    + pin(130, 110, 130, 44, '黑潮大水槽：鯨鯊', 1.0)
+    + pin(306, 150, 330, 206, 'イルカ水路連著錦江灣', 1.9);
+
+  const pig = (x, y, s = 1) => `<g transform="translate(${x} ${y}) scale(${s})"><path class="tail" d="M-14 -12q-6 -2 -4 -6q3 0 1 3"/><rect class="f-black" x="-10" y="-5" width="3.4" height="7"/><rect class="f-black" x="6" y="-5" width="3.4" height="7"/><ellipse class="f-black" cx="0" cy="-11" rx="14" ry="9"/><circle class="f-black" cx="12" cy="-15" r="7"/><path class="f-black" d="M8 -21L10 -27L14 -21Z"/><ellipse class="f-skin" cx="18" cy="-14" rx="3" ry="2.4"/><circle class="f-white" cx="14" cy="-17" r="1.1"/></g>`;
+  SC.kurobuta = () => sky() + sun(332, 40, 10) + cloud(110, 34, 0.8, -4, 18)
+    + ridge([[-10, 128], [60, 108], [130, 96], [200, 104], [280, 92], [350, 102], [410, 96]], 'f-far')
+    + ridge([[-10, 150], [100, 138], [200, 146], [300, 136], [410, 144]], 'f-mid')
+    + '<rect class="f-grass" x="-10" y="156" width="420" height="104"/><rect class="f-sand" x="-10" y="186" width="420" height="74"/>'
+    + '<rect class="f-wood" x="96" y="128" width="208" height="58"/>' + [110, 150, 250].map((x) => `<rect class="f-lit" x="${x}" y="140" width="30" height="18"/>`).join('')
+    + '<rect class="f-shade" x="196" y="146" width="34" height="40"/><rect class="f-black" x="192" y="140" width="42" height="12"/><text class="sign lt" x="213" y="149" text-anchor="middle">黒豚</text>'
+    + roof(200, 129, 240, 42)
+    + '<rect class="f-white" x="160" y="96" width="80" height="16" rx="2"/><text class="sign" x="200" y="107.5" text-anchor="middle">黒豚の館</text>'
+    + '<rect class="f-wood2" x="54" y="150" width="4" height="40"/>' + `<g class="bob"${tm(-0.5, 2.8)}>${pig(56, 150, 1.3)}</g>`
+    + [0, 1, 2, 3, 4, 5].map((i) => person(244 + i * 13, 198, i % 3 === 1 ? 0.62 : 0.9, ['f-c1', 'f-c3', 'f-c2', 'f-c4', 'f-c5', 'f-c1'][i])).join('')
+    + '<g transform="translate(340 222)"><rect class="f-wood" x="-40" y="-8" width="80" height="12" rx="3"/><ellipse class="f-white" cx="-14" cy="-10" rx="18" ry="5"/>' + [-24, -18, -12, -6].map((x) => `<rect class="f-c3" x="${x}" y="-18" width="5" height="8" rx="1"/>`).join('') + '<path class="f-grass2" d="M-6 -12q4 -8 10 -2q-2 4 -10 2z"/><path class="f-white" d="M12 -8a8 8 0 0 0 16 0z"/><path class="f-verm2" d="M28 -8a6 6 0 0 0 12 0z"/></g>'
+    + steam(326, 206, 0.7, 2, 6, 2.8)
+    + pin(250, 184, 150, 214, '10:30 抵達候位', 1.0, 'end')
+    + pin(330, 208, 352, 160, '口碑：黑豬里肌豬排定食', 1.9, 'end');
+
 
   /* ---------------- places (lat, lon) ---------------- */
   const LL = {
     koj: [31.8034, 130.7194], chuo: [31.5838, 130.5417], castle: [31.5975, 130.5555], terukuni: [31.5946, 130.5520],
-    stay_kago: [31.5872, 130.5512], port: [31.5955, 130.5640], sakura: [31.5915, 130.5995], yunohira: [31.5895, 130.6290],
+    stay_kago: [31.5836, 130.5402], port: [31.5955, 130.5640], sakura: [31.5915, 130.5995], yunohira: [31.5895, 130.6290],
     sengan: [31.6180, 130.5770], saigo: [31.5990, 130.5490], shiroyama: [31.5998, 130.5515], tenmonkan: [31.5900, 130.5555],
     ibusuki: [31.2386, 130.6432], saraku: [31.2218, 130.6513], nishioyama: [31.1886, 130.5703], nagasakibana: [31.1563, 130.5880],
     jingu: [31.8590, 130.8714], shinsui: [31.8535, 130.8625], ichiba: [31.8945, 130.8540], kai: [31.8700, 130.8450],
     farm: [31.8550, 130.9000], maruo: [31.8905, 130.8585], ebino: [31.9445, 130.8545], yurakuan: [31.9004, 131.4411],
     miyachiku: [31.9140, 131.4235], udo: [31.6497, 131.4655], sunmesse: [31.6860, 131.4620], aoshima: [31.8048, 131.4757],
     miyajingu: [31.9339, 131.4266], heiwadai: [31.9466, 131.4150], obi: [31.6297, 131.3505], castlehotel: [31.8975, 130.8480],
-    kareigawa: [31.8170, 130.7480],
+    kareigawa: [31.8170, 130.7480], marchen: [31.5963, 130.5525], matsubara: [31.5868, 130.5578], saigozo: [31.5962, 130.5566],
+    aquarium: [31.5978, 130.5652], kurobuta: [31.8091, 130.8121],
   };
   const P = {};
   for (const k in LL) P[k] = toW(LL[k]);
   P.TPE = [P.koj[0] - 0.771 * 170, P.koj[1] + 0.637 * 170]; // toward Taoyuan, off the map
 
   const STAYS = {
-    stay_kago: { name: '鹿兒島市區住宿', label: '鹿兒島市區', nights: '連住 3 晚', note: '訂房紀錄待補（Notion 裡沒有）' },
+    stay_kago: { name: '鹿兒島中央站旁飯店', jp: 'JR九州ホテル鹿児島（家人行程圖）', label: '鹿兒島中央', nights: '連住 3 晚',
+      hl: ['家人行程圖寫在 JR 九州酒店寄放行李', '分三間房，阿嬤和兩個孩子同一間'], note: '訂房紀錄和各房名單待核對' },
     kai: { name: '界 霧島', jp: '星野リゾート 界 霧島', label: '界 霧島', nights: '1 晚',
-      hl: ['星野集團的溫泉旅館，含晚餐和隔天早餐', '14:30 起可入住，11:00 前退房'],
+      hl: ['星野集團的溫泉旅館，含晚餐和隔天早餐', '14:30 起可入住，11:00 前退房；這天目標約 15:00 抵達', '目前看到一筆 2 大 2 小的訂單，其他房間的訂單待補'],
       warn: '入住前 5 天要上網填訪客名單和餐食資訊（兒童餐、過敏或不吃的食材）' },
     yurakuan: { name: '民宿 inn みやざき 湯楽庵', jp: 'inn みやざき 湯楽庵', label: '湯楽庵', nights: '連住 2 晚',
       hl: ['Check-in 15:00–18:00，超過 18:00 要先打電話或寄信', '不含晚餐；小學生以上有免費自助早餐（吐司＋飲料）', '免費停車、全館禁菸'] },
@@ -1289,109 +1432,138 @@ h1{margin:0; font-family:var(--f-display); font-weight:700; font-size:clamp(36px
 
   /* ---------------- the 8 days ---------------- */
   const DAYS = [null,
-    { n: 1, date: '12/26', dow: '六', title: '抵達・鹿兒島市區', ovLabel: '抵達', ovAt: [31.72, 130.62],
-      modes: [['plane', '華航直飛'], ['bus', '機場巴士'], ['walk', '步行・市電']],
-      tips: ['下午的兩個景點都在城山腳下，走路就能連起來。'],
+    { n: 1, date: '12/26', dow: '六', title: '抵達・鹿兒島市區', sub: '下午分兩組', ovLabel: '抵達・分組', ovAt: [31.72, 130.62],
+      focus: ['stay_kago', 'marchen', 'matsubara', 'terukuni', 'castle', 'saigozo', 'shiroyama', 'tenmonkan', 'saigo'],
+      modes: [['plane', '華航直飛'], ['bus', '機場巴士'], ['walk', '步行・市電・巴士']],
+      tips: ['下午分兩組：A 親子組去童話館；B 家人組照家人的行程圖走神社、城跡和城山，傍晚在天文館吃晚餐。兩組在哪裡會合還沒對齊。'],
+      extras: [{ at: 'saigo', icon: 'cave', label: '候選：西鄉洞窟', text: '舊草稿排過，在上城山的路上；這次的行程圖沒有排' }],
       items: [
         { leg: 'plane', from: 'TPE', bend: -30, text: '華航 CI 118｜08:25 桃園 T2 → 11:20 鹿兒島' },
         { stop: 'koj', icon: 'plane', name: '鹿兒島機場', jp: '鹿児島空港', short: '鹿兒島機場',
-          hl: ['11:20 抵達，出關後搭機場巴士進市區'],
+          hl: ['11:20 抵達，出關後搭機場巴士到鹿兒島中央站'],
           warn: '台灣送機建議 05:40 出發，還沒定案' },
-        { leg: 'bus', via: [[31.775, 130.690], [31.735, 130.655], [31.700, 130.600], [31.640, 130.528], [31.600, 130.530]], text: '機場巴士到鹿兒島中央站，約 40 分', trello: true },
-        { stop: 'chuo', minor: true, icon: 'station', name: '鹿兒島中央站', jp: '鹿児島中央駅', short: '鹿兒島中央站',
-          hl: ['市電、巴士和 JR 都從這裡出發'] },
-        { leg: 'bus', via: [[31.5905, 130.5505]], text: '搭市電或巴士進市中心' },
-        { stop: 'castle', icon: 'castle', name: '鹿兒島城跡（鶴丸城）', jp: '鹿児島城跡', short: '鹿兒島城跡',
+        { leg: 'bus', via: [[31.775, 130.690], [31.735, 130.655], [31.700, 130.600], [31.640, 130.528], [31.598, 130.530]], text: '機場巴士到鹿兒島中央站，約 40 分', trello: true },
+        { stop: 'stay_kago', minor: true, time: '13:30', icon: 'bed', name: '飯店寄行李・簡單午餐', jp: 'JR九州ホテル鹿児島（家人行程圖）', short: '13:30 寄行李',
+          hl: ['在鹿兒島中央站旁的飯店寄放行李、簡單吃午餐；家人行程圖寫的是 JR 九州酒店'] },
+        { branch: 'kid', label: '親子組', who: '2 大 2 小', note: '去童話館；正式名稱、開放時間和會合點還沒對齊' },
+        { leg: 'bus', br: 'kid', from: 'stay_kago', via: [[31.5862, 130.5455], [31.5915, 130.5500]], text: '搭市電到「朝日通」，再走約 7 分' },
+        { stop: 'marchen', br: 'kid', icon: 'book', name: '童話館（かごしまメルヘン館）', jp: 'かごしまメルヘン館', short: '童話館',
+          hl: ['Notion 寫「童話館」，正式名稱待確認；鹿兒島市區對得上的是城山町的かごしまメルヘン館', '用錯視藝術（トリックアート）和小型體能遊戲走進故事世界，中庭有機關時鐘（からくり時計）', '9:30–18:00（17:30 前入館），週二休館；12/26 是週六'],
+          kid: '整館都是童話主題，適合讓兩個孩子放電',
+          warn: '大人 500 日圓（和近代文學館共通），兒童票價和年末開館出發前再查' },
+        { leg: 'bus', br: 'kid', to: 'stay_kago', via: [[31.5915, 130.5490], [31.5862, 130.5445]], text: '回飯店（會合點待對齊）' },
+        { branch: 'fam', label: '家人組', note: '照家人提供的行程圖；時間是規劃草稿' },
+        { leg: 'bus', br: 'fam', from: 'stay_kago', via: [[31.5850, 130.5480], [31.5858, 130.5545]], text: '搭市電或巴士往天文館方向' },
+        { stop: 'matsubara', br: 'fam', time: '14:00', icon: 'shrine', name: '松原神社', jp: '松原神社', short: '松原神社',
+          hl: ['參拜，詢問御朱印', '祭祀島津家第 15 代當主島津貴久；1870 年建在南林寺的舊址'] },
+        { leg: 'walk', br: 'fam', via: [[31.5905, 130.5545]], text: '往城山方向，步行或搭市電' },
+        { stop: 'terukuni', br: 'fam', time: '14:45', icon: 'shrine', name: '照國神社', jp: '照国神社', short: '照國神社',
+          hl: ['參拜、請御朱印', '祭祀幕末帶頭推動近代化的薩摩藩主島津齊彬', '在城山腳下，走到鹿兒島城跡約 5 分'] },
+        { leg: 'walk', br: 'fam', text: '步行約 5 分' },
+        { stop: 'castle', br: 'fam', time: '15:20', icon: 'castle', name: '鹿兒島城跡・御樓門', jp: '鹿児島城跡（鶴丸城）', short: '鹿兒島城跡',
           hl: ['島津家的居城遺址，石牆上還看得到 1877 年西南戰爭的彈痕', '2020 年重建的「御樓門」，是日本最大級的城門', '日本百名城 No.97，可以蓋百名城章（Notion 筆記）'] },
-        { leg: 'walk', text: '步行約 5 分' },
-        { stop: 'terukuni', icon: 'shrine', name: '照國神社', jp: '照国神社', short: '照國神社',
-          hl: ['祭祀幕末帶頭推動近代化的薩摩藩主島津齊彬', '就在城山腳下，和鹿兒島城跡走路就到'] },
-        { leg: 'walk', text: '回市區住宿' },
+        { leg: 'walk', br: 'fam', text: '步行' },
+        { stop: 'saigozo', br: 'fam', time: '16:10', icon: 'statue', name: '西鄉隆盛銅像', jp: '西郷隆盛銅像', short: '西鄉銅像',
+          hl: ['在鹿兒島市立美術館前面，拍照點', '總高約 8 公尺，1937 年完成，雕塑家安藤照做了 8 年', '穿陸軍大將軍服，和東京上野穿浴衣的那尊不一樣'] },
+        { leg: 'bus', br: 'fam', via: [[31.5990, 130.5545]], text: '搭巴士或計程車上城山' },
+        { stop: 'shiroyama', br: 'fam', time: '16:30', icon: 'view', name: '城山展望台', jp: '城山展望台', short: '城山展望台',
+          hl: ['海拔 107 公尺，櫻島和整個鹿兒島市區一眼看完', '也是西南戰爭最後的戰場'] },
+        { leg: 'bus', br: 'fam', via: [[31.5955, 130.5545]], text: '下山到天文館' },
+        { stop: 'tenmonkan', br: 'fam', time: '傍晚', icon: 'shop', name: '天文館（晚餐）', jp: '天文館', short: '天文館',
+          hl: ['傍晚在天文館吃晚餐', '鹿兒島最熱鬧的拱廊商店街；白熊刨冰名店「天文館むじゃき」在這一帶'],
+          food: 'Trello 卡片有「川久 黑豬豬排」', foodTrello: true },
+        { leg: 'bus', br: 'fam', to: 'stay_kago', via: [[31.5875, 130.5480]], text: '搭市電回飯店' },
+        { merge: true, text: '晚上兩組都回鹿兒島中央站旁的飯店' },
         { stay: 'stay_kago' },
       ] },
-    { n: 2, date: '12/27', dow: '日', title: '櫻島＋鹿兒島市區', ovLabel: '櫻島・市區', ovAt: [31.62, 130.63], start: 'stay_kago',
-      modes: [['bus', '市電・巴士'], ['ferry', '櫻島渡輪'], ['ticket', 'Cute card 一日券']],
-      tips: ['City View 觀光巴士有到仙巖園和城山，用 CUTE 一日券可以搭。'],
-      extras: [{ at: 'yunohira', icon: 'view', label: '湯之平展望所', text: '櫻島上離火山口最近的展望台（373 m），可搭周遊巴士去' }],
+    { n: 2, date: '12/27', dow: '日', title: '櫻島＋下午分組', sub: '水族館／仙巖園', ovLabel: '櫻島・分組', ovAt: [31.62, 130.63], start: 'stay_kago',
+      modes: [['bus', '市電・巴士'], ['ferry', '櫻島渡輪'], ['ticket', '交通券兩組分開算']],
+      tips: ['上午全家一起去櫻島，11:00 搭船回市區後分兩組。交通券要照兩組實際搭的路線分開比較。'],
       items: [
-        { leg: 'bus', via: [[31.5915, 130.5585]], text: '市電到「水族館口」，走到渡輪碼頭' },
-        { stop: 'port', icon: 'ferry', name: '櫻島渡輪', jp: '桜島フェリー', short: '櫻島渡輪',
+        { leg: 'bus', via: [[31.5880, 130.5480], [31.5915, 130.5585]], text: '07:30 出發到鹿兒島港' },
+        { stop: 'port', time: '08:00', icon: 'ferry', name: '櫻島渡輪', jp: '桜島フェリー', short: '櫻島渡輪',
           hl: ['鹿兒島港到櫻島約 15 分鐘，24 小時都有船', '船上的「やぶ金」烏龍麵是名物，坐船吃麵'],
-          tip: 'CUTE 一日券（Trello 寫 Cute card）：市電、市巴士、City View、櫻島周遊巴士和渡輪都能搭；有數位版，2026/8/1 起大人 ¥1,400、小孩 ¥700', tipTrello: true },
-        { leg: 'ferry', bend: -0.9, text: '渡輪約 15 分' },
-        { stop: 'sakura', icon: 'volcano', name: '櫻島半日遊', jp: '桜島', short: '櫻島',
-          hl: ['現在還常噴發的活火山，就在市區對面', '港口旁的熔岩海濱公園有約 100 公尺長的免費足湯', '湯之平展望所（373 m）是一般遊客最接近火山口的展望台，可搭周遊巴士去'],
+          tip: 'CUTE 一日券（Trello 寫 Cute card）：市電、市巴士、City View、櫻島周遊巴士和渡輪都能搭；2026/8/1 起大人 ¥1,400、小孩 ¥700。兩組下午路線不同，划不划算要分開算', tipTrello: true },
+        { leg: 'ferry', bend: -0.9, text: '08:00 渡輪約 15 分' },
+        { stop: 'sakura', time: '08:30', icon: 'volcano', name: '櫻島港周邊', jp: '月讀神社・桜島ビジターセンター・溶岩なぎさ公園足湯', short: '櫻島',
+          hl: ['08:30 月讀神社 → 09:00 櫻島遊客中心 → 10:00 熔岩海濱公園足湯，都在櫻島港附近', '現在還常噴發的活火山，就在市區對面', '熔岩海濱公園的免費足湯約 100 公尺長'],
           kid: '世界最大的「櫻島蘿蔔」、世界最小的「櫻島小蜜柑」都是這裡的特產',
           warn: '火山灰多的日子記得戴口罩' },
-        { leg: 'ferry', bend: -0.9, text: '渡輪回鹿兒島港' },
+        { leg: 'ferry', bend: -0.9, text: '11:00 搭船回市區' },
         { pass: 'port' },
-        { leg: 'bus', via: [[31.606, 130.571]], text: 'City View 觀光巴士・市巴士' },
-        { stop: 'sengan', icon: 'garden', name: '仙巖園', jp: '仙巌園', short: '仙巖園',
-          hl: ['1658 年建的島津家別墅，把櫻島當假山、錦江灣當水池的借景庭園', '園內的反射爐遺跡屬於世界遺產「明治日本產業革命遺產」'] },
-        { leg: 'bus', via: [[31.610, 130.566], [31.603, 130.556]], text: '搭巴士上城山' },
-        { stop: 'saigo', icon: 'cave', name: '西鄉洞窟', jp: '西郷洞窟', short: '西鄉洞窟',
-          hl: ['1877 年西南戰爭最後，西鄉隆盛在這個小洞窟躲了 5 天'] },
-        { leg: 'walk', text: '步行' },
-        { stop: 'shiroyama', icon: 'view', name: '城山展望台', jp: '城山展望台', short: '城山展望台',
-          hl: ['海拔 107 公尺，櫻島和整個鹿兒島市區一眼看完', '也是西南戰爭最後的戰場'] },
-        { leg: 'bus', via: [[31.5955, 130.5550]], text: '下山到天文館' },
-        { stop: 'tenmonkan', icon: 'shop', name: '天文館', jp: '天文館', short: '天文館',
-          hl: ['鹿兒島最熱鬧的拱廊商店街，晚上來逛', '白熊刨冰名店「天文館むじゃき」就在這一帶'],
-          food: '晚餐：川久 黑豬豬排', foodTrello: true },
-        { leg: 'walk', text: '回住宿' },
+        { branch: 'kid', label: '親子組', who: '2 大 2 小', note: '入館時間和會合安排還沒補' },
+        { leg: 'walk', br: 'kid', from: 'port', text: '水族館就在渡輪碼頭旁邊' },
+        { stop: 'aquarium', br: 'kid', icon: 'fish', name: '鹿兒島水族館', jp: 'いおワールドかごしま水族館', short: '水族館',
+          hl: ['九州最大級的水族館，展示 500 種以上、約 3 萬隻生物', '黑潮大水槽裡有鯨鯊（ジンベエザメ）、鮪魚和大魟魚', '「イルカ水路」連著錦江灣，海豚在真正的海水裡游', '9:30–18:00（17:00 前入館）'],
+          kid: '海豚表演「いるかの時間」週末一天 4 場；戶外海豚水路一天 3 次可以近距離看訓練' },
+        { leg: 'bus', br: 'kid', to: 'stay_kago', via: [[31.5935, 130.5560], [31.5880, 130.5480]], text: '回飯店（會合安排待補）' },
+        { branch: 'fam', label: '仙巖園組', note: '名單還沒確定，誰想去可以自己選' },
+        { leg: 'bus', br: 'fam', from: 'port', via: [[31.606, 130.571]], text: '12:00 午餐，12:30 前往仙巖園' },
+        { stop: 'sengan', br: 'fam', time: '13:30', icon: 'garden', name: '仙巖園・尚古集成館', jp: '仙巌園・尚古集成館', short: '仙巖園',
+          hl: ['13:30–16:00 逛仙巖園、御殿和尚古集成館', '1658 年建的島津家別墅，把櫻島當假山、錦江灣當水池的借景庭園', '園內的反射爐遺跡屬於世界遺產「明治日本產業革命遺產」'] },
+        { leg: 'bus', br: 'fam', to: 'stay_kago', via: [[31.6020, 130.5640], [31.5880, 130.5480]], text: '傍晚回市區' },
+        { merge: true, text: '晚上兩組都回飯店' },
         { stay: 'stay_kago' },
       ] },
-    { n: 3, date: '12/28', dow: '一', title: '指宿一日遊', ovLabel: '指宿', ovAt: [31.34, 130.50], start: 'stay_kago',
-      modes: [['train', '指宿のたまて箱'], ['tbd', '公車或包車（未定）']],
-      alerts: ['指宿當地要搭公車還是包車還沒決定（10/4 狀態），等跟弟媳討論。'],
+    { n: 3, date: '12/28', dow: '一', title: '指宿一日遊', sub: '全家一起', ovLabel: '指宿', ovAt: [31.34, 130.50], start: 'stay_kago',
+      modes: [['train', '指宿のたまて箱'], ['car', '指宿當地租車'], ['train', '回程一般 JR']],
+      alerts: ['11 月要訂指宿玉手箱列車：開賣日、班次、7 人座位和購票人都還要確認，目前還沒買票。'],
+      tips: ['從今天起全家一起行動。在指宿站附近領當地租的小車；砂蒸溫泉、西大山、長崎鼻都是候選，順序再排。'],
       items: [
-        { leg: 'walk', text: '到鹿兒島中央站' },
+        { leg: 'walk', text: '飯店就在鹿兒島中央站旁' },
         { stop: 'chuo', icon: 'train', name: '觀光列車「指宿のたまて箱」', jp: '指宿のたまて箱（いぶたま）', short: '搭いぶたま',
           hl: ['浦島太郎「玉手箱」主題列車：車身一半黑一半白，典故是打開玉手箱後頭髮變白', '上下車時車門會冒出一陣白煙', '靠海那側的座位面向錦江灣'],
-          warn: '全車指定席，要先劃位' },
+          warn: '全車指定席；11 月訂票時確認開賣日、班次和 7 人座位' },
         { leg: 'train', via: [[31.531, 130.517], [31.470, 130.520], [31.383, 130.546], [31.330, 130.570], [31.290, 130.600]], text: '約 50 分' },
         { stop: 'ibusuki', icon: 'station', name: '指宿站', jp: '指宿駅', short: '指宿站', trello: true,
-          hl: ['站前有免費足湯（Trello）', '站旁有 Toyota 租車（Trello）'] },
-        { leg: 'tbd', text: '公車或包車（未定）' },
-        { stop: 'saraku', icon: 'onsen', name: '砂蒸溫泉「砂樂」', jp: '砂むし会館 砂楽', short: '砂樂',
+          hl: ['站前有免費足湯（Trello）', '在站附近領當地租的小車（10/17 會議）'],
+          warn: '小車的公司、門市和座位還要核對；會中說的「五六人」不能當成 7 人坐得下' },
+        { leg: 'car', text: '自駕（當地租車）' },
+        { stop: 'saraku', cand: true, icon: 'onsen', name: '砂蒸溫泉「砂樂」', jp: '砂むし会館 砂楽', short: '砂樂',
           hl: ['世界少見的天然砂蒸溫泉：穿浴衣躺在海邊，讓熱沙埋 10–15 分鐘'],
           kid: '整個人被沙埋起來只露出臉，很好拍' },
-        { leg: 'tbd', via: [[31.205, 130.615]], text: '公車或包車（未定）' },
-        { stop: 'nishioyama', icon: 'station', name: '西大山站', jp: '西大山駅', short: '西大山站',
+        { leg: 'car', via: [[31.205, 130.615]], text: '自駕' },
+        { stop: 'nishioyama', cand: true, icon: 'station', name: '西大山站', jp: '西大山駅', short: '西大山站',
           hl: ['JR 日本最南端的車站', '黃色「幸福郵筒」，背後就是開聞岳（薩摩富士）'] },
-        { leg: 'tbd', via: [[31.172, 130.577]], text: '公車或包車（未定）' },
-        { stop: 'nagasakibana', icon: 'lighthouse', name: '長崎鼻（燈塔・龍宮神社）', jp: '長崎鼻', short: '長崎鼻',
+        { leg: 'car', via: [[31.172, 130.577]], text: '自駕' },
+        { stop: 'nagasakibana', cand: true, icon: 'lighthouse', name: '長崎鼻（燈塔・龍宮神社）', jp: '長崎鼻', short: '長崎鼻',
           hl: ['薩摩半島最南端，傳說浦島太郎從這裡出發去龍宮', '龍宮神社可以在貝殼上寫願望奉納', '白色燈塔，海對面看得到開聞岳'] },
-        { leg: 'tbd', via: [[31.190, 130.618], [31.215, 130.640]], text: '回指宿站' },
+        { leg: 'car', via: [[31.190, 130.618], [31.215, 130.640]], text: '回指宿站還車' },
         { pass: 'ibusuki' },
-        { leg: 'train', faded: true, via: [[31.290, 130.594], [31.330, 130.564], [31.383, 130.540], [31.470, 130.514], [31.531, 130.511]], text: '搭火車回鹿兒島中央站' },
+        { leg: 'train', faded: true, via: [[31.290, 130.594], [31.330, 130.564], [31.383, 130.540], [31.470, 130.514], [31.531, 130.511]], text: '搭一般 JR 回鹿兒島中央站' },
         { pass: 'chuo' },
-        { leg: 'walk', text: '回住宿' },
+        { leg: 'walk', text: '回飯店' },
         { stay: 'stay_kago' },
       ] },
-    { n: 4, date: '12/29', dow: '二', title: '霧島', ovLabel: '霧島', ovAt: [31.77, 130.73], start: 'stay_kago',
-      modes: [['key', '09:00 取車'], ['car', '開始自駕']],
-      tips: ['日本靠左行駛，方向燈和雨刷的位置跟台灣相反。'],
+    { n: 4, date: '12/29', dow: '二', title: '黑豬之館午餐＋霧島', ovLabel: '霧島', ovAt: [31.77, 130.73], start: 'stay_kago',
+      modes: [['key', '09:00 取車'], ['car', '開始自駕'], ['food', '10:30 黑豬之館']],
+      alerts: ['黑豬之館平日 11:00 開、週末假日 10:30 開，週三休；12/29 是週二，年末營業時間要再確認。'],
+      tips: ['部分大人先去取車，再回飯店接其他人和行李；目標約 15:00 到界 霧島。霧島神宮、神水峽、溫泉市場是候選，看午餐和時間調整。', '日本靠左行駛，方向燈和雨刷的位置跟台灣相反。'],
       items: [
-        { leg: 'walk', text: '到鹿兒島中央站附近' },
-        { stop: 'chuo', icon: 'key', name: '取車', jp: 'トヨタレンタカー', short: '09:00 取車',
-          hl: ['09:00 Toyota Rent a Car 取車，開始 5 天自駕'],
-          warn: '訂單、車型，還有「7 人＋7 箱行李」放不放得下，都還要跟門市確認' },
-        { leg: 'car', via: [[31.625, 130.525], [31.700, 130.600], [31.735, 130.665], [31.770, 130.715], [31.800, 130.760], [31.835, 130.820]], text: '約 1 小時多（粗估）' },
-        { stop: 'jingu', icon: 'shrine', name: '霧島神宮', jp: '霧島神宮', short: '霧島神宮',
+        { leg: 'walk', text: '部分大人先去取車' },
+        { stop: 'chuo', time: '09:00', icon: 'key', name: '取車', jp: 'トヨタレンタカー', short: '09:00 取車',
+          hl: ['在鹿兒島中央附近取車（既有紀錄，待訂單核對），開始 5 天自駕', '取車後回飯店接其他家人和行李'],
+          warn: '車款有兩個說法：10/04 說 Toyota 9 人座，10/17 說 Alphard 7 人座；7 人加全部行李放不放得下，以訂單和門市回覆為準' },
+        { leg: 'car', via: [[31.625, 130.525], [31.700, 130.600], [31.735, 130.665], [31.770, 130.715], [31.792, 130.770]], text: '往霧島約 1 小時（粗估）' },
+        { stop: 'kurobuta', time: '10:30', icon: 'food', name: '黑豬之館（午餐）', jp: '産直レストラン 黒豚の館', short: '黑豬之館',
+          hl: ['抵達候位（規劃），家人推薦的黑豬料理午餐', '網路口碑常提到黑豬里肌豬排定食', '家人建議早餐少吃一點，留胃給午餐'],
+          warn: '平日 11:00–15:00、週末假日 10:30–15:00，週三休；12/29（二）年末營業待確認' },
+        { leg: 'car', via: [[31.835, 130.840]], text: '約 15 分（粗估）' },
+        { stop: 'jingu', cand: true, icon: 'shrine', name: '霧島神宮', jp: '霧島神宮', short: '霧島神宮',
           hl: ['2022 年本殿、幣殿、拜殿列為國寶，朱紅色的社殿', '祭祀天孫降臨神話的瓊瓊杵尊', '樹齡約 800 年的御神木，還有日本國歌唱到的「さざれ石」'] },
         { leg: 'car', text: '車程約 5–7 分' },
-        { stop: 'shinsui', icon: 'columns', name: '霧島神水峽', jp: '霧島神水峡', short: '霧島神水峽',
+        { stop: 'shinsui', cand: true, icon: 'columns', name: '霧島神水峽', jp: '霧島神水峡', short: '霧島神水峽',
           hl: ['霧島神宮旁的溪谷，沿霧島川有約 1.8 公里步道', '看得到熔岩冷卻形成的「柱狀節理」，是 788 年御鉢噴發流下來的'],
           warn: '步道有上下坡，穿好走的鞋' },
         { leg: 'car', via: [[31.872, 130.860]], text: '約 11 分' },
-        { stop: 'ichiba', icon: 'onsen', name: '霧島溫泉市場', jp: '霧島温泉市場', short: '霧島溫泉市場',
+        { stop: 'ichiba', cand: true, icon: 'onsen', name: '霧島溫泉市場', jp: '霧島温泉市場', short: '霧島溫泉市場',
           hl: ['用溫泉蒸氣蒸的溫泉蛋和蒸料理', '在霧島溫泉鄉的中心「丸尾」'] },
-        { leg: 'car', via: [[31.882, 130.849]], text: '到旅館' },
+        { leg: 'car', via: [[31.882, 130.849]], text: '約 15:00 到旅館' },
         { stay: 'kai' },
       ] },
     { n: 5, date: '12/30', dow: '三', title: '高千穗牧場・蝦野高原 → 宮崎', ovLabel: '牧場・高原', ovAt: [32.0, 130.92], start: 'kai',
       modes: [['car', '自駕']],
+      tips: ['蝦野高原健行約 1–2 小時（會中估計）；如果分流，要先講好哪位大人陪孩子在遊客中心等、怎麼會合。'],
       alerts: ['12/30 是週三：えびの高原往小林方向的縣道 1 號（硫黃山附近）只有週六、日 9:00–17:00 暫時開放，平日不通，下雪也會停開。去宮崎請從えびの高原往北走縣道 30 號，在えびの IC 上宮崎道；出發前再查霧島市觀光協會的最新公告。'],
       closures: [{ a: [31.952, 130.860], b: [31.968, 130.896], label: '縣道 1 號 平日不通' }],
       extras: [{ at: 'miyachiku', icon: 'food', label: '晚餐候選：宮崎牛', text: 'Trello 卡片：ミヤチク，可先預約' }],
@@ -1466,19 +1638,23 @@ h1{margin:0; font-family:var(--f-display); font-weight:700; font-size:clamp(36px
   ];
 
   const NIGHTS = [
-    { label: '鹿兒島市區', n: 3, dates: '12/26–12/28', day: 1 },
+    { label: '鹿兒島中央站旁', n: 3, dates: '12/26–12/28', day: 1 },
     { label: '界 霧島', n: 1, dates: '12/29', day: 4 },
     { label: '湯楽庵（宮崎）', n: 2, dates: '12/30–12/31', day: 5 },
     { label: '霧島城堡飯店', n: 1, dates: '1/1', day: 7 },
   ];
-  const OV_HOTELS = [['stay_kago', '鹿兒島市區 3 晚', 1], ['kai', '界 霧島 1 晚', 4], ['yurakuan', '湯楽庵 2 晚', 5], ['castlehotel', '霧島城堡 1 晚', 7]];
+  const OV_HOTELS = [['stay_kago', '鹿兒島中央 3 晚', 1], ['kai', '界 霧島 1 晚', 4], ['yurakuan', '湯楽庵 2 晚', 5], ['castlehotel', '霧島城堡 1 晚', 7]];
   const TODO = [
-    ['D1–D3', '鹿兒島市區 3 晚住宿：Notion 裡沒有訂房紀錄'],
-    ['D3', '指宿當地交通：公車或包車，等跟弟媳討論'],
-    ['D4', '租車：Toyota 訂單、車型、7 人＋7 箱行李放不放得下，待門市確認'],
+    ['D1–D3', '鹿兒島中央站旁飯店：分三間房，訂房紀錄和各房名單待核對'],
+    ['D1', '親子組童話館：正式名稱、開放時間和兩組會合點待對齊'],
+    ['D2', '水族館／仙巖園分組：名單、入館時間和會合安排待補；交通券兩組分開比較'],
+    ['D3', '11 月訂指宿玉手箱列車：開賣日、班次、7 人座位、購票人'],
+    ['D3', '指宿當地小車：公司、門市和座位待核對'],
+    ['D4', '租車：10/04 說 Toyota 9 人座、10/17 說 Alphard 7 人座，以訂單和門市為準；全體行李箱數要重算'],
+    ['D4', '12/29 黑豬之館年末營業時間待確認（10:30 暫定抵達候位）'],
     ['D4', '界 霧島：入住前 5 天填訪客名單和餐食資訊'],
     ['D5', 'えびの高原往宮崎：12/30 是週三，縣道 1 號（往小林）不通，改走えびの IC'],
-    ['D5–D6', '12/30、12/31 晚餐：湯楽庵不含晚餐，還沒定'],
+    ['D5–D6', '12/30、12/31 晚餐：湯楽庵不含晚餐，要跟弟媳確認'],
     ['D1・D8', '台灣機場接送：去程 05:40 待定案，回程接機還沒確認'],
   ];
   const MOUNTAINS = [
@@ -1551,20 +1727,26 @@ h1{margin:0; font-family:var(--f-display); font-weight:700; font-size:clamp(36px
   }
 
   function buildDay(day) {
-    const items = day.items, segs = [];
-    let cur = day.start ? P[day.start] : null, num = 0;
+    const items = day.items, segs = [], cnt = { main: 0, kid: 0, fam: 0 };
+    let cur = day.start ? P[day.start] : null;
     items.forEach((it, i) => {
+      if (it.branch) { day._fork = day._fork || {}; day._fork[it.branch] = it; return; }
       if (it.leg) {
         let end = it.to ? P[it.to] : null;
-        if (!end) for (let j = i + 1; j < items.length; j++) { const pid = items[j].stop || items[j].stay || items[j].pass; if (pid) { end = P[pid]; break; } }
+        if (!end) for (let j = i + 1; j < items.length; j++) { const nx = items[j]; if (nx.branch || nx.merge) break; const pid = nx.stop || nx.stay || nx.pass; if (pid) { end = P[pid]; break; } }
         const start = it.from ? P[it.from] : cur;
         const pts = (it.leg === 'plane' || it.bend) ? sampleArc(start, end, it.bend || 0) : sampleLine([start].concat((it.via || []).map(toW), [end]));
-        it._seg = Object.assign(withCum(pts), { mode: it.leg, faded: !!it.faded, plane: it.leg === 'plane' });
+        it._seg = Object.assign(withCum(pts), { mode: it.leg, faded: !!it.faded, plane: it.leg === 'plane', br: it.br || '' });
         segs.push(it._seg);
         cur = end;
-      } else {
+      } else if (it.stop || it.stay || it.pass) {
         cur = P[it.stop || it.stay || it.pass];
-        if (it.stop && !it.minor) it._num = ++num;
+        if (it.stop && !it.minor) {
+          const k = it.br || 'main';
+          cnt[k] += 1;
+          it._num = it.br ? (it.br === 'kid' ? 'A' : 'B') + cnt[k] : String(cnt[k]);
+          if (it.br) it._brLabel = day._fork[it.br].label;
+        }
       }
     });
     const pts = [];
@@ -1574,6 +1756,10 @@ h1{margin:0; font-family:var(--f-display); font-weight:700; font-size:clamp(36px
     (day.extras || []).forEach((x) => pts.push(P[x.at]));
     (day.closures || []).forEach((c) => { pts.push(toW(c.a), toW(c.b)); });
     day._segs = segs;
+    if (day.focus) {
+      day._fbox = boxOf(day.focus.map((k) => P[k]));
+      day._zoomAt = items.findIndex((it) => (it.stop || it.stay) && day.focus.includes(it.stop || it.stay));
+    }
     day._box = boxOf(pts);
   }
 
@@ -1616,7 +1802,7 @@ h1{margin:0; font-family:var(--f-display); font-weight:700; font-size:clamp(36px
 
   /* ---------------- routes ---------------- */
   function addRoute(seg, n, prog) {
-    const g = sv('g', { class: `rt m-${seg.mode} dc${n}` + (seg.faded ? ' faded' : '') }, L.routes);
+    const g = sv('g', { class: `rt m-${seg.mode} dc${n}` + (seg.faded ? ' faded' : '') + (seg.br === 'kid' ? ' br-kid' : '') }, L.routes);
     const els = [];
     if (seg.mode === 'car' || seg.mode === 'bus') els.push(sv('polyline', { class: 'cas' }, g));
     els.push(sv('polyline', { class: 'main' }, g));
@@ -1810,7 +1996,7 @@ h1{margin:0; font-family:var(--f-display); font-weight:700; font-size:clamp(36px
   }
   function placeVeh() { const v = S.veh; if (v && v.w) v.g.setAttribute('transform', `translate(${sx(v.w).toFixed(1)} ${sy(v.w).toFixed(1)})`); }
   function placeComet() { const c = S.comet; if (c && c.w) c.g.setAttribute('transform', `translate(${sx(c.w).toFixed(1)} ${sy(c.w).toFixed(1)})`); }
-  function showVehicle(r) { const v = S.veh; v.g.setAttribute('class', 'veh dc' + r.n); v.use.setAttribute('href', '#i-' + MODE_ICON[r.seg.mode]); v.g.style.display = ''; }
+  function showVehicle(r) { const v = S.veh; v.g.setAttribute('class', 'veh dc' + r.n + (r.seg.br === 'kid' ? ' kid' : '')); v.use.setAttribute('href', '#i-' + MODE_ICON[r.seg.mode]); v.g.style.display = ''; }
   function hideVehicle() { if (!S.veh) return; S.veh.g.style.display = 'none'; S.veh.w = null; }
   function updateUI() {
     if (!S.scale) return;
@@ -1854,7 +2040,7 @@ h1{margin:0; font-family:var(--f-display); font-weight:700; font-size:clamp(36px
   function buildOverview() {
     for (let n = 1; n <= 8; n++) DAYS[n]._segs.forEach((s) => addRoute(s, n, 1));
     for (let n = 1; n <= 8; n++) DAYS[n].items.forEach((it) => {
-      if (it.stop && !it.minor) { const g = sv('g', { class: 'dotmk dc' + n }, L.extra); sv('circle', { r: 3.6 }, g); S.dots.push({ w: P[it.stop], g }); }
+      if (it.stop && !it.minor) { const g = sv('g', { class: 'dotmk dc' + n + (it.br === 'kid' ? ' kid' : '') }, L.extra); sv('circle', { r: 3.6 }, g); S.dots.push({ w: P[it.stop], g }); }
     });
     OV_HOTELS.forEach(([pid, label, n]) => S.layout.push(makeMarker({ w: P[pid], hotel: true, label, small: true, n, item: { stayId: pid, day: n }, onClick: showTip, aria: label })));
     for (let n = 1; n <= 8; n++) {
@@ -1873,7 +2059,7 @@ h1{margin:0; font-family:var(--f-display); font-weight:700; font-size:clamp(36px
     (day.extras || []).forEach((x) => { x._m = makeMarker({ w: P[x.at], extra: true, icon: x.icon, label: x.label, small: true, n, item: { extra: x, day: n }, onClick: showTip, aria: x.label }); S.layout.push(x._m); });
     day.items.forEach((it, idx) => {
       if (it.stop) {
-        it._m = makeMarker({ w: P[it.stop], num: it._num, minor: it.minor, label: it.short || it.name, small: !!it.minor, cls: 'pending', n, item: { it, day: n, idx }, onClick: showTip, aria: it.name });
+        it._m = makeMarker({ w: P[it.stop], num: it._num, minor: it.minor, label: it.short || it.name, small: !!it.minor, cls: 'pending' + (it.br === 'kid' ? ' kid' : ''), n, item: { it, day: n, idx }, onClick: showTip, aria: it.name });
         S.layout.push(it._m);
       } else if (it.stay) {
         it._m = makeMarker({ w: P[it.stay], hotel: true, label: '住 ' + STAYS[it.stay].label, cls: 'pending', n, item: { stayId: it.stay, day: n, idx }, onClick: showTip, aria: STAYS[it.stay].name });
@@ -1938,7 +2124,9 @@ h1{margin:0; font-family:var(--f-display); font-weight:700; font-size:clamp(36px
       afterDay(n, token);
       return;
     }
-    for (const it of day.items) {
+    for (const [i, it] of day.items.entries()) {
+      if (token !== S.token) return;
+      if (i === day._zoomAt && S.targetCam) await tweenCam(S.targetCam, 950, token);
       if (token !== S.token) return;
       if (it.leg) {
         const r = S.routes.find((rr) => rr.seg === it._seg);
@@ -1946,6 +2134,9 @@ h1{margin:0; font-family:var(--f-display); font-weight:700; font-size:clamp(36px
       } else if ((it.stop || it.stay) && it._m) {
         reveal(it._m, true); flash(it._cid);
         await sleep(it.minor ? 160 : 420);
+      } else if (it.branch) {
+        hideVehicle(); flash(it._cid);
+        await sleep(320);
       }
     }
     if (token !== S.token) return;
@@ -1981,7 +2172,9 @@ h1{margin:0; font-family:var(--f-display); font-weight:700; font-size:clamp(36px
   function stopComet() { const c = S.comet; if (!c) return; cancelAnimationFrame(c.raf); c.g.style.display = 'none'; c.w = null; }
 
   /* ---------------- switching views ---------------- */
-  function viewBox(n) { return n === 0 ? padBox(S.ovBox, 0.03, 1.5) : padBox(DAYS[n]._box, 0.06, 0.4); }
+  function viewBox(n) { return n === 0 ? padBox(S.ovBox, 0.03, 1.5) : DAYS[n]._fbox ? padBox(DAYS[n]._fbox, 0.08, 0.18) : padBox(DAYS[n]._box, 0.06, 0.4); }
+  const fullBox = (n) => padBox(DAYS[n]._box, 0.06, 0.4);
+  const inBox = (w, b) => w[0] >= b.x0 && w[0] <= b.x1 && w[1] >= b.y0 && w[1] <= b.y1;
   function finishDay() {
     hideVehicle();
     S.routes.forEach((r) => { r.prog = 1; });
@@ -1997,7 +2190,9 @@ h1{margin:0; font-family:var(--f-display); font-weight:700; font-size:clamp(36px
     $('btn-replay').hidden = n === 0;
     clearLayers();
     if (n === 0) buildOverview(); else buildDayView(n);
-    const target = fitCam(viewBox(n));
+    const day = DAYS[n];
+    const focusIt = n && opts.focus != null ? day.items[opts.focus] : null;
+    const target = fitCam(focusIt && day._fbox && !inBox(P[focusIt.stop || focusIt.stay], day._fbox) ? fullBox(n) : viewBox(n));
     S.targetCam = target;
     layoutMarkers(S.layout, target);
     applyCam();
@@ -2009,7 +2204,8 @@ h1{margin:0; font-family:var(--f-display); font-weight:700; font-size:clamp(36px
       return;
     }
     const instant = reduced() || !S.ready;
-    tweenCam(target, instant ? 0 : 850, token).then(() => {
+    const startCam = n && day._fbox && !reduced() ? fitCam(fullBox(n)) : target;
+    tweenCam(startCam, instant ? 0 : 850, token).then(() => {
       if (token !== S.token) return;
       if (n === 0) {
         startComet();
@@ -2039,10 +2235,10 @@ h1{margin:0; font-family:var(--f-display); font-weight:700; font-size:clamp(36px
       kicker = '順路可去'; title = info.extra.label; line = info.extra.text || '';
     } else if (info.it) {
       const it = info.it;
-      kicker = it._num ? `第 ${it._num} 站` : '轉乘'; title = it.name; jp = it.jp && it.jp !== it.name ? it.jp : '';
+      kicker = it._num ? (it.br ? `${it._brLabel}・${it._num}` : `第 ${it._num} 站`) : (it.time || '轉乘'); title = it.name; jp = it.jp && it.jp !== it.name ? it.jp : '';
       line = it._spot ? SPOTS[it._spot].feat : (it.hl ? it.hl[0] : ''); card = `c-${info.day}-${info.idx}`; spot = it._spot || '';
     }
-    tip.className = 'tip dc' + (m.n || 0);
+    tip.className = 'tip dc' + (m.n || 0) + (info.it && info.it.br === 'kid' ? ' br-kid' : '');
     const acts = (spot ? `<button type="button" class="tp-go" data-spot="${spot}">看景點動畫</button>` : '') + (card ? `<button type="button" class="tp-go" data-card="${card}">看完整介紹</button>` : '');
     tip.innerHTML = `<p class="tp-k">${esc(kicker)}</p><h4>${esc(title)}</h4>${jp ? `<p class="jp" lang="ja">${esc(jp)}</p>` : ''}${line ? `<p>${esc(line)}</p>` : ''}${acts ? `<div class="tp-acts">${acts}</div>` : ''}`;
     tip.hidden = false;
@@ -2095,21 +2291,25 @@ h1{margin:0; font-family:var(--f-display); font-weight:700; font-size:clamp(36px
     const b = $('banner');
     b.className = 'banner dc' + n;
     if (n === 0) b.innerHTML = '<span class="bn-no">全程</span><span class="bn-t">8 天 7 夜</span><span class="bn-d">12/26 → 1/2</span>';
-    else { const d = DAYS[n]; b.innerHTML = `<span class="bn-no">D${n}</span><span class="bn-t">${esc(d.title)}</span><span class="bn-d">${d.date}（${d.dow}）${d.sub ? ' ' + esc(d.sub) : ''}</span>`; }
+    else {
+      const d = DAYS[n], fk = d._fork;
+      b.innerHTML = `<span class="bn-no">D${n}</span><span class="bn-t">${esc(d.title)}</span><span class="bn-d">${d.date}（${d.dow}）${d.sub ? ' ' + esc(d.sub) : ''}</span>`
+        + (fk ? `<span class="bn-fork">${['kid', 'fam'].filter((k) => fk[k]).map((k) => `<span class="${k === 'kid' ? 'br-kid' : ''}"><i></i>${k === 'kid' ? 'A' : 'B'} ${esc(fk[k].label)}</span>`).join('')}</span>` : '');
+    }
     if (S.ready && !reduced()) { void b.offsetWidth; b.classList.add('in'); }
   }
 
   function legHTML(it) {
-    return `<li class="leg${it.faded ? ' faded' : ''}"><span class="lic">${icon(MODE_ICON[it.leg])}</span><span>${esc(it.text || '')}${it.trello ? ' <span class="tag tr">Trello</span>' : ''}</span></li>`;
+    return `<li class="leg${it.faded ? ' faded' : ''}${it.br === 'kid' ? ' br-kid' : ''}"><span class="lic">${icon(MODE_ICON[it.leg])}</span><span>${esc(it.text || '')}${it.trello ? ' <span class="tag tr">Trello</span>' : ''}</span></li>`;
   }
   function stopHTML(d, it, idx) {
     it._cid = `c-${d.n}-${idx}`;
     const jp = it.jp && it.jp !== it.name ? `<p class="jp" lang="ja">${esc(it.jp)}</p>` : '';
     const sp = it._spot && SPOTS[it._spot];
-    return `<li class="st${it.minor ? ' minor' : ''}" id="${it._cid}">
+    return `<li class="st${it.minor ? ' minor' : ''}${it.br === 'kid' ? ' br-kid' : ''}" id="${it._cid}">
       <button type="button" class="sb" data-focus="${idx}" aria-label="在地圖上看：${esc(it.name)}">${it.minor ? '' : it._num}</button>
       <div class="sbody">
-        <h3>${icon(it.icon, 'si')}<span>${esc(it.name)}</span>${it.trello ? '<span class="tag tr">Trello</span>' : ''}</h3>${jp}
+        <h3>${it.time ? `<span class="tm">${esc(it.time)}</span>` : ''}${icon(it.icon, 'si')}<span>${esc(it.name)}</span>${it.cand ? '<span class="tag">候選</span>' : ''}${it.trello ? '<span class="tag tr">Trello</span>' : ''}</h3>${jp}
         ${sp ? `<button type="button" class="th" data-spot="${it._spot}" aria-label="看「${esc(it.name)}」的景點動畫">${sceneSVG(it._spot, 'still')}<span class="th-go">${icon('spark')}看動畫</span></button>` : ''}
         ${it.hl ? `<ul class="hl">${it.hl.map((x) => `<li>${esc(x)}</li>`).join('')}</ul>` : ''}
         ${it.tip ? `<p class="aux">${icon('ticket')}<span>${esc(it.tip)}${it.tipTrello ? ' <span class="tag tr">Trello</span>' : ''}</span></p>` : ''}
@@ -2133,6 +2333,10 @@ h1{margin:0; font-family:var(--f-display); font-weight:700; font-size:clamp(36px
         ${(d.stayExtra || []).map((x) => `<p class="aux">${icon(x[0])}<span>${esc(x[1])}${x[2] ? ' <span class="tag tr">Trello</span>' : ''}</span></p>`).join('')}
       </div></li>`;
   }
+  function forkHTML(d, it, idx) {
+    it._cid = `c-${d.n}-${idx}`;
+    return `<li class="fork-h${it.branch === 'kid' ? ' br-kid' : ''}" id="${it._cid}"><span class="fk">${it.branch === 'kid' ? 'A' : 'B'}</span><div><p class="fk-t"><b>${esc(it.label)}</b>${it.who ? `<span class="who">${esc(it.who)}</span>` : ''}</p>${it.note ? `<p class="fk-n">${esc(it.note)}</p>` : ''}</div></li>`;
+  }
   function dayHTML(d) {
     const n = d.n;
     let h = `<div class="dhead"><p class="dh-k"><span class="dh-no">DAY ${n}</span><span class="dh-date">${d.date}（${d.dow}）${d.sub ? ' · ' + esc(d.sub) : ''}</span></p>
@@ -2145,6 +2349,8 @@ h1{margin:0; font-family:var(--f-display); font-weight:700; font-size:clamp(36px
       if (it.leg) h += legHTML(it);
       else if (it.stop) h += stopHTML(d, it, idx);
       else if (it.stay) h += stayHTML(d, it, idx);
+      else if (it.branch) h += forkHTML(d, it, idx);
+      else if (it.merge) h += `<li class="leg merge"><span class="lic">${icon('bed')}</span><span>${esc(it.text)}</span></li>`;
     });
     h += '</ol>';
     const prev = n - 1, next = n < 8 ? n + 1 : 0;
@@ -2156,7 +2362,7 @@ h1{margin:0; font-family:var(--f-display); font-weight:700; font-size:clamp(36px
     return `<section class="blk"><h3>地圖怎麼看</h3><ul class="legend">
       ${ln('m-car', true, false, '自駕')}${ln('m-bus', true, false, '巴士・市電')}${ln('m-train', false, true, '觀光列車')}
       ${ln('m-ferry', false, false, '渡輪')}${ln('m-walk', false, false, '步行')}${ln('m-plane', false, false, '飛機')}
-      ${ln('m-tbd', false, false, '交通未定')}
+      <li><svg viewBox="0 0 46 16" aria-hidden="true"><g class="rt m-bus br-kid dc0"><polyline class="cas" points="4,8 42,8"></polyline><polyline class="main" points="4,8 42,8"></polyline></g></svg>親子組（D1–D2 分組時）</li>
       <li><svg viewBox="0 0 46 16" aria-hidden="true"><g class="mk dc0" transform="translate(23 8)"><rect class="b" x="-8" y="-8" width="16" height="16" rx="5"></rect></g></svg>住宿</li>
       <li><svg viewBox="0 0 46 16" aria-hidden="true"><g class="closure" transform="translate(23 8)"><g class="cx"><circle r="7"></circle><path d="M-3 -3L3 3M3 -3L-3 3"></path></g></g></svg>封路</li>
     </ul></section>`;
@@ -2164,7 +2370,7 @@ h1{margin:0; font-family:var(--f-display); font-weight:700; font-size:clamp(36px
   function overviewHTML() {
     let h = `<div class="dhead"><p class="dh-k"><span class="dh-no">8 天</span><span class="dh-date">12/26（六）→ 1/2（六）</span></p>
       <h2>整趟怎麼走</h2>
-      <p class="lead">前三天住鹿兒島市區，搭巴士、渡輪和觀光列車；12/29 取車後自駕霧島、宮崎和日南海岸，1/2 從鹿兒島機場回台。</p></div>`;
+      <p class="lead">前三天住鹿兒島中央站旁，搭巴士、渡輪和觀光列車；前兩天下午分兩組（A 親子組、B 家人組），12/28 起全家一起行動。12/29 取車後自駕霧島、宮崎和日南海岸，1/2 從鹿兒島機場回台。</p></div>`;
     h += '<ol class="drows">' + range(1, 8).map((n) => {
       const d = DAYS[n], st = d.items.find((it) => it.stay);
       const modes = []; d.items.forEach((it) => { if (it.leg && it.leg !== 'walk' && !modes.includes(it.leg)) modes.push(it.leg); });
@@ -2174,7 +2380,7 @@ h1{margin:0; font-family:var(--f-display); font-weight:700; font-size:clamp(36px
     h += `<section class="blk"><h3>住宿 7 晚</h3><div class="nbar" aria-hidden="true">${NIGHTS.map((x) => `<span class="dc${x.day}" style="flex:${x.n}"></span>`).join('')}</div>
       <ul class="nleg">${NIGHTS.map((x) => `<li class="dc${x.day}"><span class="sw"></span><span>${esc(x.label)}・${x.n} 晚<span class="nd">${x.dates}</span></span></li>`).join('')}</ul></section>`;
     h += `<section class="blk"><h3>自駕 5 天</h3><div class="rent">${range(1, 8).map((n) => `<span class="${n >= 4 ? 'on' : ''}">D${n}</span>`).join('')}</div>
-      <p class="small">Toyota Rent a Car（訂單待核對）：12/29 09:00 鹿兒島中央取車，1/2 10:00 鹿兒島機場還車。</p></section>`;
+      <p class="small">Toyota Rent a Car（訂單待核對）：12/29 09:00 鹿兒島中央取車，1/2 10:00 鹿兒島機場還車；車款有 9 人座和 Alphard 7 人座兩種說法。12/28 在指宿另租當地小車。</p></section>`;
     h += `<section class="blk"><h3>出發前還要確認</h3><ul class="todo">${TODO.map(([d, t]) => `<li><span class="td-d">${d}</span><span>${esc(t)}</span></li>`).join('')}</ul></section>`;
     h += legendHTML();
     return h;
@@ -2193,20 +2399,24 @@ h1{margin:0; font-family:var(--f-display); font-weight:700; font-size:clamp(36px
   // v = number that counts up, s = fixed text; pre/u wrap the value, l is the caption under it.
   const SPOTS = {
     koj1: { feat: '11:20 落地，搭機場巴士約 40 分到鹿兒島中央站', facts: [{ s: '11:20', l: '抵達鹿兒島' }, { pre: '約', v: 40, u: '分', l: '巴士到市區' }], q: '鹿児島空港' },
+    marchen: { feat: '用錯視藝術和小型體能遊戲，走進童話故事的世界', facts: [{ s: '9:30–18:00', l: '17:30 前入館' }, { s: '週二', l: '休館（12/26 週六有開）' }, { pre: '大人', v: 500, u: '日圓', l: '和近代文學館共通' }], q: 'かごしまメルヘン館' },
+    matsubara: { feat: '祭祀島津家第 15 代當主島津貴久，建在南林寺舊址', facts: [{ s: '14:00', l: '參拜、詢問御朱印' }, { s: '1870', u: '年', l: '創建' }], q: '松原神社 鹿児島' },
+    terukuni: { feat: '祭祀帶頭推動薩摩近代化的藩主島津齊彬', facts: [{ s: '14:45', l: '參拜、請御朱印' }, { s: '島津齊彬', l: '祭神' }], q: '照国神社' },
     castle: { feat: '2020 年重建的「御樓門」，是日本最大級的城門', facts: [{ s: '2020', u: '年', l: '御樓門重建' }, { pre: 'No.', v: 97, l: '日本百名城' }, { s: '1877', u: '年', l: '石牆上的彈痕' }], q: '鹿児島城 御楼門' },
-    terukuni: { feat: '祭祀帶頭推動薩摩近代化的藩主島津齊彬', facts: [{ s: '島津齊彬', l: '祭神' }, { v: 5, u: '分', l: '走到鹿兒島城跡' }], q: '照国神社' },
+    saigozo: { feat: '城山腳下，穿陸軍軍服的西鄉隆盛銅像', facts: [{ pre: '約', v: 8, u: 'm', l: '銅像總高' }, { s: '1937', u: '年', l: '完成' }, { v: 8, u: '年', l: '安藤照製作' }], q: '西郷隆盛銅像 鹿児島' },
+    shiroyama: { feat: '海拔 107 公尺，櫻島和整個鹿兒島市區一眼看完', facts: [{ v: 107, u: 'm', l: '展望台海拔' }, { s: '16:30', l: '搭巴士或計程車上山' }], q: '城山展望台 鹿児島' },
+    tenmonkan: { feat: '鹿兒島最熱鬧的拱廊商店街，家人組傍晚在這裡吃晚餐', facts: [{ s: '傍晚', l: '晚餐' }, { s: '白熊', l: '刨冰名物' }], q: '天文館 しろくま' },
     port: { feat: '24 小時都有船，15 分鐘就到火山島', facts: [{ v: 15, u: '分', l: '航程' }, { v: 24, u: '小時', l: '都有班次' }, { s: 'やぶ金', l: '船上烏龍麵' }], q: '桜島フェリー' },
-    sakura: { feat: '就在市區對面、現在還常噴發的活火山', facts: [{ v: 1117, u: 'm', l: '北岳海拔' }, { pre: '約', v: 100, u: 'm', l: '熔岩海濱足湯' }, { v: 373, u: 'm', l: '湯之平展望所' }], q: '桜島' },
-    sengan: { feat: '把櫻島當假山、錦江灣當水池的借景庭園', facts: [{ s: '1658', u: '年', l: '島津家別邸' }, { s: '世界遺產', l: '反射爐遺跡' }], q: '仙巌園 桜島' },
-    saigo: { feat: '西南戰爭最後，西鄉隆盛在這個小洞窟躲了 5 天', facts: [{ v: 5, u: '天', l: '藏身洞窟' }, { s: '1877', u: '年', l: '西南戰爭' }], q: '西郷洞窟 鹿児島' },
-    shiroyama: { feat: '海拔 107 公尺，櫻島和整個鹿兒島市區一眼看完', facts: [{ v: 107, u: 'm', l: '展望台海拔' }], q: '城山展望台 鹿児島' },
-    tenmonkan: { feat: '鹿兒島最熱鬧的拱廊商店街，名物是白熊刨冰', facts: [{ s: '白熊', l: '刨冰名物' }, { s: '黑豬', l: '豬排晚餐（Trello）' }], q: '天文館 しろくま' },
-    ibutama: { feat: '車身一半黑一半白，上下車時車門會冒出白煙', facts: [{ pre: '約', v: 50, u: '分', l: '鹿兒島中央到指宿' }, { s: '全車', l: '指定席，要先劃位' }], q: '指宿のたまて箱' },
-    ibusuki: { feat: '一出站就有免費足湯', facts: [{ s: '免費', l: '站前足湯（Trello）' }, { s: '未定', l: '當地公車或包車' }], q: '指宿駅 足湯' },
+    sakura: { feat: '就在市區對面、現在還常噴發的活火山', facts: [{ v: 1117, u: 'm', l: '北岳海拔' }, { pre: '約', v: 100, u: 'm', l: '熔岩海濱足湯' }, { s: '08:30–11:00', l: '神社、遊客中心、足湯' }], q: '桜島 溶岩なぎさ公園' },
+    aquarium: { feat: '九州最大級的水族館，有鯨鯊，還有連著錦江灣的海豚水路', facts: [{ v: 500, u: '種以上', l: '展示生物' }, { s: '鯨鯊', l: '黑潮大水槽' }, { v: 4, u: '場', l: '週末海豚表演' }], q: 'いおワールドかごしま水族館' },
+    sengan: { feat: '把櫻島當假山、錦江灣當水池的借景庭園，旁邊就是尚古集成館', facts: [{ s: '1658', u: '年', l: '島津家別邸' }, { s: '13:30–16:00', l: '仙巖園組參觀' }, { s: '世界遺產', l: '反射爐遺跡' }], q: '仙巌園 桜島' },
+    ibutama: { feat: '車身一半黑一半白，上下車時車門會冒出白煙', facts: [{ pre: '約', v: 50, u: '分', l: '鹿兒島中央到指宿' }, { s: '11 月', l: '訂票（全車指定席）' }], q: '指宿のたまて箱' },
+    ibusuki: { feat: '一出站就有免費足湯，在這裡領當地租的小車', facts: [{ s: '免費', l: '站前足湯（Trello）' }, { s: '租車', l: '站附近領當地小車' }], q: '指宿駅 足湯' },
     saraku: { feat: '穿浴衣躺在海邊，讓熱沙埋起來的天然砂蒸溫泉', facts: [{ s: '10–15', u: '分', l: '被熱沙埋的時間' }, { s: '浴衣', l: '穿著躺進沙裡' }], q: '砂むし会館 砂楽' },
     nishioyama: { feat: 'JR 日本最南端的車站，背後就是開聞岳', facts: [{ s: '最南端', l: 'JR 車站' }, { v: 924, u: 'm', l: '開聞岳' }, { s: '黃色', l: '幸福郵筒' }], q: '西大山駅 開聞岳' },
     nagasakibana: { feat: '薩摩半島最南端，傳說浦島太郎從這裡出發去龍宮', facts: [{ s: '最南端', l: '薩摩半島' }, { s: '貝殼', l: '在龍宮神社寫願望' }], q: '長崎鼻 龍宮神社' },
     rent: { feat: '09:00 取車，開始 5 天自駕', facts: [{ s: '09:00', l: '取車' }, { v: 5, u: '天', l: '自駕' }, { s: '靠左', l: '日本行車方向' }], q: '' },
+    kurobuta: { feat: '家人推薦的黑豬料理午餐，在往霧島的路上', facts: [{ s: '10:30', l: '預計抵達候位' }, { s: '11:00', l: '平日開店（週末假日 10:30）' }, { s: '週三', l: '公休' }], q: '黒豚の館 霧島' },
     jingu: { feat: '2022 年列為國寶的朱紅色社殿', facts: [{ s: '2022', u: '年', l: '列為國寶' }, { pre: '約', v: 800, u: '年', l: '御神木樹齡' }], q: '霧島神宮' },
     shinsui: { feat: '溪谷兩岸是熔岩冷卻形成的柱狀節理', facts: [{ pre: '約', v: 1.8, dp: 1, u: 'km', l: '溪谷步道' }, { s: '788', u: '年', l: '御鉢噴發的熔岩' }], q: '霧島神水峡' },
     ichiba: { feat: '用溫泉蒸氣蒸的溫泉蛋和蒸料理', facts: [{ s: '溫泉蛋', l: '蒸氣現蒸' }, { s: '丸尾', l: '霧島溫泉鄉中心' }], q: '霧島温泉市場' },
@@ -2280,9 +2490,9 @@ h1{margin:0; font-family:var(--f-display); font-weight:700; font-size:clamp(36px
     if (reduced()) sc.classList.add('still'); else { void sc.getBoundingClientRect(); sc.classList.add('enter'); }
     sc.innerHTML = SC[o.key]();
     sc.setAttribute('aria-label', it.name + '示意動畫');
-    $('st-dots').innerHTML = ORDER.filter((x) => x.n === o.n).map((x) => `<button type="button" data-key="${x.key}" aria-label="${esc(x.it.name)}"${x.key === o.key ? ' aria-current="true"' : ''}></button>`).join('');
+    $('st-dots').innerHTML = ORDER.filter((x) => x.n === o.n).map((x) => `<button type="button" data-key="${x.key}"${x.it.br === 'kid' ? ' class="kid"' : ''} aria-label="${esc(x.it.name)}"${x.key === o.key ? ' aria-current="true"' : ''}></button>`).join('');
     const jp = it.jp && it.jp !== it.name ? `<span class="jp" lang="ja">${esc(it.jp)}</span>` : '';
-    $('st-card').innerHTML = `<div class="sc-in"><p class="sc-k"><span class="nm">D${o.n} ${esc(d.title)}</span><span>${d.date}（${d.dow}）第 ${it._num} 站${S.mode === 0 ? `・全程 ${V.i + 1} / ${V.list.length}` : ""}</span></p>
+    $('st-card').innerHTML = `<div class="sc-in"><p class="sc-k"><span class="nm">D${o.n} ${esc(d.title)}</span>${it.br ? `<span class="grp${it.br === "kid" ? " br-kid" : ""}">${it._num} ${esc(it._brLabel)}</span>` : ""}<span>${d.date}（${d.dow}）${it.br ? "" : `第 ${it._num} 站`}${it.time ? ` ${esc(it.time)}` : ""}${S.mode === 0 ? `・全程 ${V.i + 1} / ${V.list.length}` : ""}</span></p>
       <h3 class="sc-t"><span>${esc(it.name)}</span>${jp}</h3>
       <p class="sc-f">${icon('spark')}<span>${esc(sp.feat)}</span></p>
       <ul class="sc-facts">${sp.facts.map(factHTML).join('')}</ul>
